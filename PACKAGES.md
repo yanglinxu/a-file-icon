@@ -160,7 +160,6 @@ This file contains a list of possible packages those you may need to install to 
 ## Swift
 
 - [Swift](https://packagecontrol.io/packages/Swift)
-- [Swift for F*ing Sublime](https://packagecontrol.io/packages/Swift%20for%20F*ing%20Sublime)
 
 ## TODO
 

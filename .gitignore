@@ -3,14 +3,13 @@
 
 *.sublime-project
 *.sublime-workspace
-*.sublime-theme
 *.log
 *cache
 *.pyc
 
-icons/
-aliases/
-preferences/
+# icons/
+# aliases/
+# preferences/
 node_modules/
 
 # OS
