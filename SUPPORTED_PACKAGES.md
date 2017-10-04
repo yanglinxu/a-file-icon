@@ -1,4 +1,4 @@
-# Packages
+# Supported Packages
 
 The icons for packages provided by the community require to be installed. E.g. if you want to see `SCSS` icon you should install one of the `SCSS` syntax packages.
 
