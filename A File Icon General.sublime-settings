@@ -1,0 +1,304 @@
+{
+  /* GENERAL SETTINGS
+   * ************************************************************ *
+   * This file contains common settings.
+   * ************************************************************ */
+
+  // Note, all settings can be overridden in:
+  //  - settings file provided by a package on a per-theme basis,
+  //  - `Packages/User/A File Icon Theme.sublime-settings` file.
+
+
+
+  // Table Of Contents
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // - Providers
+  // - Colors
+  //   * Color Variables
+  //   * Color Functions
+  //   * Color Formats
+  //   * Base Colors
+  //   * Icon Colors
+  // - Opacity
+  // - Sizes
+  // - Animation
+  // - Miscellaneous
+
+
+
+  // Providers
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // This setting allows you to change a way to obtain the icons.
+  // Valid options are "default" and "theme". Set to "theme" to use
+  // the icons provided by a package of the current global theme and
+  // add only missing ones. Set to "default" to use the icons
+  // provided by A File Icon only.
+  "icon_provider": "default",
+
+  // This setting allows you to change a way to obtain colors of
+  // the icons. Valid options are "default" and "colorscheme".
+  // Set to "colorscheme" to get colors from the current global
+  // color scheme. Note, "colorscheme" option works only if:
+  //  - "icon_provider" is "default",
+  //  - "icon_provider" is "theme" and the theme supports
+  //    colorization of icons.
+  // Set to "default" to use colors provided by the settings.
+  "color_provider": "default",
+
+
+
+  // Colors
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  // Color Variables
+  // ===============================================================
+
+  // A File Icon provides a bunch of color variables to improve
+  // your experience with a customization of the icon appearance.
+
+  // Every color-specific setting may be used as `variable`,
+  // just prefix its name with `$`. If your theme supports
+  // colorization of icons and "color_provider" is "colorscheme":
+  // you can use next colors derived from the current global
+  // color scheme:
+  //  - "$foreground_color",
+  //  - "$background_color",
+  //  - "$accent_color".
+  // There is also one special variable – "$multi_color". It enables
+  // multicolor mode. In this mode A File Icon will use colors from
+  // from `A File Icon Color.sublime-settings` file on a per-icon
+  // basis.
+
+
+  // Color Functions
+  // ===============================================================
+
+  // We use a special syntax for function calls. A function call may
+  // be specified by creating an array, with the first being the
+  // name of the function and the others being its arguments.
+  // E.g. ["darken", "$background_color", 0.25].
+
+  // rgb()
+  // Create an opaque color object from decimal red, green and
+  // blue (RGB) values.
+  //
+  // Parameters:
+  //  - red: An integer 0–255.
+  //  - green: An integer 0–255.
+  //  - blue: An integer 0–255.
+  //
+  // Example: ["rgb", 90, 130, 30].
+
+  // rgba()
+  // Create a transparent color object from decimal red, green,
+  // blue and alpha (RGBA) values.
+  //
+  // Parameters:
+  //  - red: An integer 0–255.
+  //  - green: An integer 0–255.
+  //  - blue: An integer 0–255.
+  //  - alpha: A number 0–1.
+  //
+  // Example: ["rgba", 90, 130, 30, 0.5].
+
+  // hsl()
+  // Create an opaque color object from hue, saturation and
+  // lightness (HSL) values.
+  //
+  // Parameters:
+  //  - hue: An integer 0–360 representing degrees.
+  //  - saturation: An integer 0–100 representing a percentage.
+  //  - lightness: An integer 0–100 representing a percentage.
+  //
+  // Example: ["hsl", 90, 100, 50].
+
+  // hsla()
+  // Create a transparent color object from hue, saturation,
+  // lightness and alpha (HSLA) values.
+  //
+  // Parameters:
+  //  - hue: An integer 0–360 representing degrees.
+  //  - saturation: An integer 0–100 representing a percentage.
+  //  - lightness: An integer 0–100 representing a percentage.
+  //  - alpha: A number 0–1.
+  //
+  // Example: ["hsla", 90, 100, 50, 0.25].
+
+  // tint()
+  // Mix color with white in variable proportion. It is the same as
+  // calling `["mix", "$color", "#ffffff", "$weight"]`.
+  //
+  // Parameters:
+  //  - color: A color object.
+  //  - weight: A number 0–1 representing a percentage balance point
+  //            between the color and white.
+  //
+  // Example: ["tint", "#007fff", 0.5].
+
+  // shade()
+  // Mix color with black in variable proportion. It is the same as
+  // calling `["mix", "$color", "#000000", "$weight"]`.
+  //
+  // Parameters:
+  //  - color: A color object.
+  //  - weight: A number 0–1 representing a percentage balance point
+  //            between the color and black.
+  //
+  // Example: ["shade", "#007fff", 0.5].
+
+  // lighten()
+  // Increase the lightness of a color in the HSL color space by
+  // an absolute amount.
+  //
+  // Parameters:
+  //  - color: A color object.
+  //  - amount: An integer 0–100.
+  //
+  // Example: ["lighten", ["rgba", 0, 0, 0, 1.0], 50].
+
+  // darken()
+  // Decrease the lightness of a color in the HSL color space by
+  // an absolute amount.
+  //
+  // Parameters:
+  //  - color: A color object.
+  //  - amount: An integer 0–100.
+  //
+  // Example: ["darken", ["hsl", 200, 50, 20], 10].
+
+  // specify()
+  // Use different colors for dark & light color schemes. The first
+  // argument is used for dark color schemes, while the second is
+  // used for light color schemes.
+  //
+  // Parameters:
+  // - dark: A color object.
+  // - light: A color object.
+  //
+  // Example: ["specify", "$red", "$blue"] -> `$blue` will be used
+  //          if the color scheme is light, `$red` will be used
+  //          otherwise.
+
+
+  // Color Formats
+  // ===============================================================
+
+  // A File Icon supports next color formats:
+  // HEX RGB(A), RGB(A), HSL(A), X11 and WEB named.
+
+  // Usage:
+  //  - "black",
+  //  - "#fff",
+  //  - ["rgb", 163, 194, 116],
+  //  - ["hsla", 84, 40, 76, 0.5],
+  //  - "$greenish_color".
+
+
+  // Base Colors
+  // ===============================================================
+
+  // Note, base colors may be overridden if:
+  //  - a theme developer provides another base colors for his themes,
+  //  - you are using "colorscheme" as "color_provider".
+
+  "grayish_color": "#798385",
+  "redish_color": "#d52a29",
+  "orangish_color": "#ea7130",
+  "yellowish_color": "#e79627",
+  "greenish_color": "#6aab20",
+  "bluish_color": "#497ce3",
+  "purplish_color": "#7963e6",
+
+
+  // Icon Colors
+  // ===============================================================
+
+  // Valid values are misc color formats. See `Color Variables` and
+  // `Color Formats` sections for more details.
+
+  // The default color of the icons.
+  "default_color": "$multi_color",
+
+  // The color of the icon when your mouse over it.
+  "hover_color": "$default_color",
+
+  // The color of the icon when it is in selected row.
+  "selection_color": "$default_color",
+
+
+
+  // Opacity
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // The default opacity of the icons.
+  "default_opacity": 0.75,
+
+  // The opacity of the icon when your mouse over it.
+  "hover_opacity": 0.5,
+
+  // The opacity of the icon when it is in selected row.
+  "selection_opacity": 1.0,
+
+
+
+  // Sizes
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Icon padding may be specified in one of three ways:
+  //  - A single integer value — the same value is applied to the
+  //    left, top, right and bottom.
+  //  - An array of two integers — the first value is applied to
+  //    the left and right, while the second value is applied to the
+  //    top and bottom.
+  //  - An array of four integers — the values are applied, in
+  //    order, to the left, top, right and bottom.
+  // E.g. 8-point "padding" means that:
+  //  - @1x icons have the next size: 16px x 16px,
+  //  - @2x icons have the next size: 32px x 32px.
+  // Note:
+  //  - It's highly recommended that you do not change it. This
+  //    value is pretty common for existing themes. Sublime Text
+  //    doesn't support vector graphics or font icons, so resizing
+  //    raster graphics doesn't make a lot of sense, because you'll
+  //    get the blurry icons.
+  //  - You can set it to 0 to hide all file-specific icons.
+  //    Unlikely that is useful as a common value, but can be used
+  //    in the theme-specific settings.
+  "padding": 8,
+
+  // This setting allows you to set the size of the white space
+  // outside the icons for the right side. It is pretty useful when
+  // the size of icons differs from the size of folder icons and
+  // you want to align the text. Change it only if you know what
+  // you are doing.
+  "right_margin": 0,
+
+
+
+  // Animation
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Set to true to enable the icon opacity animation.
+  "enable_animation": false,
+
+  // The base speed of the icon opacity animation.
+  // Valid values are float numbers from 0.1 to 100.0.
+  "animation_speed": 4.5,
+
+  // The interpolation method of the icon opacity animation.
+  // Valid options are "linear" and "smoothstep".
+  "animation_interpolation": "smoothstep",
+
+
+
+  // Miscellaneous
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // By default the package provides syntax aliases to apply such
+  // icons as `Gulpfile.js`, `webpack.config.js`, `package.json` and
+  // etc. Set to false to disable them.
+  "enable_syntax_aliases": true
+}

@@ -1,0 +1,43 @@
+{
+  /* THEME-SPECIFIC SETTINGS
+   * ************************************************************ *
+   * This file contains settings on a per-theme basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - In most cases global settings should work fine, otherwise
+  //    you can tweak the appearance of icons for your theme here.
+  //  - Theme developers can provide recommended icon-specific
+  //    settings on a per-theme basis. You can also override them
+  //    here if you don't like recommended ones.
+  //  - Some themes support colorization of icons (all icon assets
+  //    should be white). Our engine will use colors provided
+  //    in the settings for them. Themes that already have support
+  //    of the icon colorization include:
+  //      * Adaptive (Theme - Default),
+  //      * DA (DA UI).
+  //  - All general settings can be overridden.
+  //  - Additionally you can provide next boolean settings on
+  //    a per-theme basis:
+  //      * "supports_colorization" – indicates that theme supports
+  //        colorization of icons,
+  //      * "ignored" – tells our engine to ignore the theme and do
+  //        not create any icon related patches.
+  //  - Your custom settings should follow our convention:
+  //    "<theme name without `.sublime-theme`>": {
+  //      < settings to override ... >
+  //    }
+
+
+
+  // Default Themes
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  // Custom settings for `Default.sublime-theme`.
+  "Default": {},
+
+  // Custom settings for `Adaptive.sublime-theme`.
+  "Adaptive": {
+    "supports_colorization": true
+  }
+}
