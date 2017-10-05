@@ -14,4 +14,4 @@
 /.gitignore               export-ignore
 /_devonly.py              export-ignore
 /LABEL_CHEATSHEET.md      export-ignore
-/SUPPORTED_PACKAGES.md    export-ignore
+/SUPPORTED_SYNTAXES.md    export-ignore
