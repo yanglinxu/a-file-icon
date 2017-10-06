@@ -9,7 +9,7 @@
   //    you can tweak the appearance of icons for your theme here.
   //  - Theme developers can provide recommended icon-specific
   //    settings on a per-theme basis. You can also override them
-  //    here if you don't like recommended ones.
+  //    here if you don't like the recommended ones.
   //  - Some themes support colorization of icons (all icon assets
   //    should be white). Our engine will use colors provided
   //    in the settings for them. Themes that already have support
@@ -25,7 +25,7 @@
   //        not create any icon related patches.
   //  - Your custom settings should follow our convention:
   //    "<theme name without `.sublime-theme`>": {
-  //      < settings to override ... >
+  //      < custom theme settings ... >
   //    }
 
 

@@ -272,8 +272,9 @@
   // This setting allows you to set the size of the white space
   // outside the icons for the right side. It is pretty useful when
   // the size of icons differs from the size of folder icons and
-  // you want to align the text. Change it only if you know what
-  // you are doing.
+  // you want to align the text. Unlikely it is useful as a common
+  // value, but can be used in the theme-specific settings. Change
+  // it only if you know what you are doing.
   "right_margin": 0,
 
 
