@@ -13,7 +13,5 @@
 /.gitattributes               export-ignore
 /.gitignore                   export-ignore
 /_devonly.py                  export-ignore
-/A*Alias.sublime-settings     export-ignore
-/A*Syntax.sublime-settings    export-ignore
 /LABEL_CHEATSHEET.md          export-ignore
 /SUPPORTED_SYNTAXES.md        export-ignore

@@ -1,6 +1,84 @@
 {
-  /* ICON-SPECIFIC SETTINGS
+  /* ICON-SPECIFIC COLOR SETTINGS
    * ************************************************************ *
-   * This file contains settings on a per-icon basis.
+   * This file contains color settings on a per-icon basis.
    * ************************************************************ */
+
+  // A File Icon uses these settings only in multicolor mode.
+  // This mode is enabled by default (to disable it set
+  // "default_color" to any color other than "$multi_color" in
+  // "Packages/User/A File Icon General.sublime-settings" file),
+  // however it may be disabled on a per-theme basis.
+
+  // The recommended icon color for Microsoft Access files.
+  "access_icon_color": "$redish_color",
+
+  // The recommended icon color for ActionScript files.
+  "actionscript_icon_color": "$redish_color",
+
+  // The recommended icon color for Adobe After Effects files.
+  "ae_icon_color": "$purplish_color",
+
+  // The recommended icon color for Adobe Illustrator files.
+  "ai_icon_color": "$orangish_color",
+
+  // The recommended icon color for Angular files.
+  "angular_icon_color": "$redish_color",
+
+  // The recommended icon color for AppleScript files.
+  "applescript_icon_color": "$grayish_color",
+
+  // The recommended icon color for archive files.
+  "archive_icon_color": "$grayish_color",
+
+  // The recommended icon color for audio files.
+  "audio_icon_color": "$redish_color",
+
+  // The recommended icon color for Babel specific files.
+  "babel_icon_color": "$yellowish_color",
+
+  // The recommended icon color for binary files.
+  "binary_icon_color": "$grayish_color",
+
+  // The recommended icon color for Laravel Blade files.
+  "blade_icon_color": "$orangish_color",
+
+  // The recommended icon color for Bower specific files.
+  "bower_icon_color": "$yellowish_color",
+
+  // The recommended icon color for C files.
+  "c_icon_color": "$purplish_color",
+
+  // The recommended icon color for Circle CI specific files.
+  "circleci_icon_color": "$grayish_color",
+
+  // The recommended icon color for Cold Fusion files.
+  "cf_icon_color": "$bluish_color",
+
+  // The recommended icon color for Clojure files.
+  "clojure_icon_color": "$purplish_color",
+
+  // The recommended icon color for CoffeeScript files.
+  "coffeescript_icon_color": "$orangish_color",
+
+  // The recommended icon color for Composer specific files.
+  "composer_icon_color": "$orangish_color",
+
+  // The recommended icon color for C++ files.
+  "cpp_icon_color": "$bluish_color",
+
+  // The recommended icon color for C# files.
+  "csharp_icon_color": "$bluish_color",
+
+  // The recommended icon color for CSS files.
+  "css_icon_color": "$bluish_color",
+
+  // The recommended icon color for CSV files.
+  "csv_icon_color": "$greenish_color",
+
+  // The recommended icon color for Dart files.
+  "dart_icon_color": "$greenish_color",
+
+  // The recommended icon color for unrecognized files.
+  "default_icon_color": "$grayish_color",
 }

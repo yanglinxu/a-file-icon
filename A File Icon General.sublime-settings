@@ -136,7 +136,7 @@
   //  - weight: A number 0–1 representing a percentage balance point
   //            between the color and white.
   //
-  // Example: ["tint", "#007fff", 0.5].
+  // Example: ["tint", "#497ce3", 0.5].
 
   // shade()
   // Mix color with black in variable proportion. It is the same as
@@ -147,7 +147,7 @@
   //  - weight: A number 0–1 representing a percentage balance point
   //            between the color and black.
   //
-  // Example: ["shade", "#007fff", 0.5].
+  // Example: ["shade", "#497ce3", 0.5].
 
   // lighten()
   // Increase the lightness of a color in the HSL color space by
@@ -222,10 +222,12 @@
   // The default color of the icons.
   "default_color": "$multi_color",
 
-  // The color of the icon when your mouse over it.
+  // The color of the icon when your mouse over it. Works only
+  // if "default_color" is not "$multi_color".
   "hover_color": "$default_color",
 
-  // The color of the icon when it is in selected row.
+  // The color of the icon when it is in selected row. Works only
+  // if "default_color" is not "$multi_color".
   "selection_color": "$default_color",
 
 
@@ -287,7 +289,7 @@
 
   // The base speed of the icon opacity animation.
   // Valid values are float numbers from 0.1 to 100.0.
-  "animation_speed": 4.5,
+  "animation_speed": 4.0,
 
   // The interpolation method of the icon opacity animation.
   // Valid options are "linear" and "smoothstep".
