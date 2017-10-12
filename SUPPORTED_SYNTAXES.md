@@ -4,38 +4,6 @@ The icons for packages provided by the community require to be installed. E.g. i
 
 This file contains a list of possible packages those you may need to install to see their icons.
 
-## CoffeeScript
-
-- [Better CoffeeScript](https://packagecontrol.io/packages/Better%20CoffeeScript)
-
-## Cold Fusion
-
-- [CFML](https://packagecontrol.io/packages/CFML)
-- [ColdFusion](https://github.com/SublimeText/ColdFusion/tree/st3-readme)
-
-## CSV
-
-- [Advanced CSV](https://packagecontrol.io/packages/Advanced%20CSV)
-
-## Dart
-
-- [Dart](https://packagecontrol.io/packages/Dart)
-
-## Docker
-
-- [Dockerfile Syntax Highlighting](https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting)
-
-## EditorConfig
-
-- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
-
-## Elixir
-
-- [Elixir](https://packagecontrol.io/packages/Elixir)
-
-## Elm
-
-- [Elm Language Support](https://packagecontrol.io/packages/Elm%20Language%20Support)
 
 ## Env
 

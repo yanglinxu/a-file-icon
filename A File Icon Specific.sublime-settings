@@ -273,7 +273,7 @@
     "color": "$orangish_color",
     "syntaxes": [
       {
-        "name": "Laravel Blade Highlighter",
+        "name": "Laravel Blade",
         "url": "https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter",
         "scope": "text.blade"
       }
@@ -296,4 +296,313 @@
       }
     ]
   },
+
+  // The icon settings for C files.
+  "file_type_c": {
+    "color": "$purplish_color",
+    "syntaxes": [
+      {
+        "name": "C",
+        "scope": "source.c"
+      },
+      {
+        "name": "Objective-C",
+        "scope": "source.objc"
+      }
+    ]
+  },
+
+  // The icon settings for Circle CI specific files.
+  "file_type_circleci": {
+    "color": "$grayish_color",
+    "aliases":[
+      {
+        "name": "YAML (CircleCI)",
+        "linter": "yaml",
+        "extensions": [
+          "circle.yml"
+        ],
+        "base": "source.yaml",
+        "scope": "source.yaml.circleci"
+      }
+    ]
+  },
+
+  // The icon settings for Cold Fusion and Lucee files.
+  "file_type_cf": {
+    "color": "$bluish_color",
+    "syntaxes": [
+      {
+        "name": "CFML",
+        "url": "https://packagecontrol.io/packages/CFML",
+        "scope": "embedding.cfml"
+      }
+    ]
+  },
+
+  // The icon settings for Clojure files.
+  "file_type_clojure": {
+    "color": "$purplish_color",
+    "syntaxes": [
+      {
+        "name": "Clojure",
+        "scope": "source.clojure"
+      }
+    ]
+  },
+
+  // The icon settings for CoffeeScript files.
+  "file_type_coffeescript": {
+    "color": "$orangish_color",
+    "syntaxes": [
+      {
+        "name": "CoffeeScript",
+        "url": "https://packagecontrol.io/packages/Better%20CoffeeScript",
+        "scope": "source.coffee"
+      }
+    ]
+  },
+
+  // The icon settings for Composer specific files.
+  "file_type_composer": {
+    "color": "$orangish_color",
+    "aliases": [
+      {
+        "name": "JSON (Composer)",
+        "linter": "json",
+        "extensions": [
+          "composer.json",
+          "composer.lock"
+        ],
+        "base": "source.json",
+        "scope": "source.json.composer"
+      }
+    ]
+  },
+
+  // The icon settings for C++ files.
+  "file_type_cpp": {
+    "color": "$bluish_color",
+    "syntaxes": [
+      {
+        "name": "C++",
+        "scope": "source.c++"
+      }
+    ]
+  },
+
+  // The icon settings for C# files.
+  "file_type_csharp": {
+    "color": "$bluish_color",
+    "syntaxes": [
+      {
+        "name": "C#",
+        "scope": "source.cs"
+      }
+    ]
+  },
+
+  // The icon settings for CSS files.
+  "file_type_css": {
+    "color": "$bluish_color",
+    "syntaxes": [
+      {
+        "name": "CSS",
+        "scope": "source.css"
+      }
+    ]
+  },
+
+  // The icon settings for CSV files.
+  "file_type_csv": {
+    "color": "$greenish_color",
+    "syntaxes": [
+      {
+        "name": "AdvancedCSV",
+        "url": "https://packagecontrol.io/packages/Advanced%20CSV",
+        "scope": "text.advanced_csv"
+      },
+      {
+        "name": "CSV",
+        "url": "https://github.com/michaelblyons/SublimeSyntax-CSV",
+        "scope": "text.csv"
+      }
+    ]
+  },
+
+  // The icon settings for Dart files.
+  "file_type_dart": {
+    "color": "$greenish_color",
+    "syntaxes": [
+      {
+        "name": "Dart",
+        "url": "https://packagecontrol.io/packages/Dart",
+        "scope": "source.dart"
+      }
+    ]
+  },
+
+  // The default icon settings.
+  "file_type_default": {
+    "color": "$grayish_color"
+  },
+
+  // The icon settings for D files.
+  "file_type_dlang": {
+    "color": "$redish_color",
+    "syntaxes": [
+      {
+        "name": "D",
+        "scope": "source.d"
+      }
+    ]
+  },
+
+  // The icon settings for Docker specific files.
+  "file_type_docker": {
+    "color": "$bluish_color",
+    "syntaxes": [
+      {
+        "name": "Dockerfile",
+        "url": "https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting",
+        "scope": "source.dockerfile"
+      }
+    ],
+    "aliases": [
+      {
+        "name": "YAML (Docker)",
+        "linter": "yaml",
+        "extensions": [
+          "docker-compose.yml"
+        ],
+        "base": "source.yaml",
+        "scope": "source.yaml.docker"
+      },
+      {
+        "name": "Shell Script (Docker)",
+        "extensions": [
+          ".dockerignore"
+        ],
+        "base": "source.shell",
+        "scope": "source.shell.docker"
+      }
+    ]
+  },
+
+  // The icon settings for .NET specific files.
+  "file_type_dotnet": {
+    "color": "$purplish_color",
+    "syntaxes": [
+      {
+        "name": "ASP",
+        "scope": "source.asp"
+      },
+      {
+        "name": "HTML (ASP)",
+        "scope": "text.html.asp"
+      }
+    ]
+  },
+
+  // The icon settings for EditorConfig.
+  "file_type_editorconfig": {
+    "color": "$yellowish_color",
+    "syntaxes": [
+      {
+        "name": "EditorConfig",
+        "url": "https://packagecontrol.io/packages/EditorConfig",
+        "scope": "source.ini.editorconfig"
+      }
+    ]
+  },
+
+  // The icon settings for Elm files.
+  "file_type_elm": {
+    "color": "$greenish_color",
+    "syntaxes": [
+      {
+        "name": "Elm",
+        "url": "https://packagecontrol.io/packages/Elm%20Language%20Support",
+        "scope": "source.elm"
+      }
+    ]
+  },
+
+  // The icon settings for Erlang files.
+  "file_type_erlang": {
+    "color": "$redish_color",
+    "syntaxes": [
+      {
+        "name": "Erlang",
+        "scope": "source.erlang"
+      }
+    ]
+  },
+
+  // The icon settings for ESLint specific files.
+  "file_type_eslint": {
+    "color": "$purplish_color",
+    "aliases": [
+      {
+        "name": "JSON (ESLint)",
+        "linter": "json",
+        "extensions": [
+          ".eslintrc",
+          ".eslintrc.json"
+        ],
+        "base": "source.json",
+        "scope": "source.json.eslint"
+      },
+      {
+        "name": "JavaScript (ESLint)",
+        "linter": "javascript",
+        "extensions": [
+          ".eslintrc.js"
+        ],
+        "base": "source.js",
+        "scope": "source.js.eslint"
+      },
+      {
+        "name": "YAML (ESLint)",
+        "linter": "yaml",
+        "extensions": [
+          ".eslintrc.yaml",
+          ".eslintrc.yml"
+        ],
+        "base": "source.yaml",
+        "scope": "source.yaml.eslint"
+      },
+      {
+        "name": "Shell Script (ESLint)",
+        "extensions": [
+          ".eslintignore"
+        ],
+        "base": "source.shell",
+        "scope": "source.shell.eslint"
+      },
+      {
+        "name": "Plain Text (ESLint)",
+        "extensions": [
+          ".eslintcache"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.eslint"
+      }
+    ]
+  },
+
+  // The icon settings for Elixir files.
+  "file_type_ex": {
+    "color": "$purplish_color",
+    "syntaxes": [
+      {
+        "name": "Elixir",
+        "url": "https://packagecontrol.io/packages/Elixir",
+        "scope": "source.elixir, text.elixir, text.html.elixir"
+      }
+    ]
+  },
+
+  // TODO: Decide what name to use: syntax or package. Packages
+  // may contain many syntaxes.
 }

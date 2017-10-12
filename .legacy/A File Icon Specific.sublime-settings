@@ -19,4 +19,34 @@
   "file_type_angular": {
     "color": "#f13c6f"
   },
+
+  // The legacy icon settings for Cold Fusion files.
+  "file_type_cf": {
+    "color": "#26a2c1"
+  },
+
+  // The legacy icon settings for C++ files.
+  "file_type_cpp": {
+    "color": "#1e9cef"
+  },
+
+  // The legacy icon settings for Dart files.
+  "file_type_dart": {
+    "color": "#26a2c1"
+  },
+
+  // The legacy icon settings for Docker specific files.
+  "file_type_docker": {
+    "color": "#1e9cef"
+  },
+
+  // The legacy icon settings for .NET specific files.
+  "file_type_dotnet": {
+    "color": "#26a2c1"
+  },
+
+  // The legacy icon settings for Elm files.
+  "file_type_dotnet": {
+    "color": "#26a2c1"
+  },
 }
