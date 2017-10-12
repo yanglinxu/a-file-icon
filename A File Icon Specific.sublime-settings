@@ -100,4 +100,200 @@
       ]
     }
   */
+
+  // The icon settings for Microsoft Access files.
+  "file_type_access": {
+    "color": "$redish_color",
+    "aliases": [
+      {
+        "name": "Plain Text (Microsoft Access)",
+        "extensions": [
+          "adn",
+          "accdb",
+          "accdr",
+          "accdt",
+          "accda",
+          "mdw",
+          "accde",
+          "mam",
+          "maq",
+          "mar",
+          "mat",
+          "maf",
+          "laccdb"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.access"
+      }
+    ]
+  },
+
+  // The icon settings for ActionScript files.
+  "file_type_actionscript": {
+    "color": "$redish_color",
+    "syntaxes": [
+      {
+        "name": "ActionScript",
+        "scope": "source.actionscript"
+      }
+    ]
+  },
+
+  // The icon settings for Adobe After Effects files.
+  "file_type_ae": {
+    "color": "$purplish_color",
+    "aliases": [
+      {
+        "name": "Plain Text (Adobe After Effects)",
+        "extensions": [
+          "aep",
+          "aet"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.ae"
+      }
+    ]
+  },
+
+  // The icon settings for Adobe Illustrator files.
+  "file_type_ai": {
+    "color": "$orangish_color",
+    "aliases":[
+      {
+        "name": "Plain Text (Adobe Illustrator)",
+        "extensions": [
+          "ai"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.ai"
+      }
+    ]
+  },
+
+  // The icon settings for Angular specific files.
+  "file_type_angular": {
+    "color": "$redish_color",
+    "syntaxes": [
+      {
+        "name": "Angular​JS",
+        "url": "https://packagecontrol.io/packages/AngularJS",
+        "scope": "text.html.basic.angularjs"
+      }
+    ]
+  },
+
+  // The icon settings for AppleScript files.
+  "file_type_applescript": {
+    "color": "$grayish_color",
+    "syntaxes": [
+      {
+        "name": "AppleScript",
+        "scope": "source.applescript"
+      }
+    ]
+  },
+
+  // The icon settings for archive files.
+  "file_type_archive": {
+    "color": "$grayish_color",
+    "aliases":[
+      {
+        "name": "Plain Text (Archive)",
+        "extensions": [
+          "7z",
+          "7zip",
+          "gz",
+          "pzip",
+          "rar",
+          "saz",
+          "tar",
+          "tgz",
+          "wim",
+          "zip"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.archive"
+      }
+    ]
+  },
+
+  // The icon settings for audio files.
+  "file_type_audio": {
+    "color": "$redish_color",
+    "aliases":[
+      {
+        "name": "Plain Text (Audio)",
+        "extensions": [
+          "mp3",
+          "m4p",
+          "aac",
+          "aiff",
+          "au",
+          "flac",
+          "m4a",
+          "mpc",
+          "mp+",
+          "mpp",
+          "oga",
+          "opus",
+          "ra",
+          "rm",
+          "wav",
+          "wma"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.audio"
+      }
+    ]
+  },
+
+  // The icon settings for Babel specific files.
+  "file_type_babel": {
+    "color": "$yellowish_color",
+    "aliases": [
+      {
+        "name": "JSON (Babel)",
+        "linter": "json",
+        "extensions": [
+          ".babelrc"
+        ],
+        "base": "source.json",
+        "scope": "source.json.babel"
+      }
+    ]
+  },
+
+  // The icon settings for binary files.
+  "file_type_binary": {
+    "color": "$grayish_color"
+  },
+
+  // The icon settings for Laravel Blade files.
+  "file_type_blade": {
+    "color": "$orangish_color",
+    "syntaxes": [
+      {
+        "name": "Laravel Blade Highlighter",
+        "url": "https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter",
+        "scope": "text.blade"
+      }
+    ]
+  },
+
+  // The icon settings for Bower specific files.
+  "file_type_bower": {
+    "color": "$yellowish_color",
+    "aliases":[
+      {
+        "name": "JSON (Bower)",
+        "linter": "json",
+        "extensions": [
+          "bower.json",
+          ".bowerrc"
+        ],
+        "base": "source.json",
+        "scope": "source.json.bower"
+      }
+    ]
+  },
 }
