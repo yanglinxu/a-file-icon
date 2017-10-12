@@ -1,7 +1,7 @@
 {
-  /* LEGACY ICON-SPECIFIC COLOR SETTINGS
+  /* LEGACY ICON-SPECIFIC SETTINGS
    * ************************************************************ *
-   * This file contains legacy color settings on a per-icon basis.
+   * This file contains legacy settings on a per-icon basis.
    * ************************************************************ */
 
   // Starting 4.0.0 we do not use next colors by default:
@@ -13,17 +13,8 @@
   // detection when "color_provider" is "colorscheme".
 
   // If you want to use previous colors you can copy these settings
-  // to `Packages/User/A File Icon Color.sublime-settings` file.
+  // to `Packages/User/A File Icon Specific.sublime-settings` file.
 
   // The legacy icon color for Angular files.
-  "angular_icon_color": "#f13c6f",
-
-  // The legacy icon color for Cold Fusion files.
-  "cf_icon_color": "#26a2c1",
-
-  // The legacy icon color for C++ files.
-  "cpp_icon_color": "#1e9cef",
-
-  // The legacy icon color for Dart files.
-  "dart_icon_color": "#26a2c1",
+  // "angular_icon_color": "#f13c6f",
 }

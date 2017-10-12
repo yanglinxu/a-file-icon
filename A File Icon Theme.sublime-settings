@@ -34,10 +34,17 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   // Custom settings for `Default.sublime-theme`.
-  "Default": {},
+  "Default": {
+    "default_opacity": 0.7,
+    "hover_opacity": 0.7,
+    "margin_right": 2
+  },
 
   // Custom settings for `Adaptive.sublime-theme`.
   "Adaptive": {
+    "default_opacity": 0.7,
+    "hover_opacity": 0.7,
+    "margin_right": 2,
     "supports_colorization": true
   }
 }

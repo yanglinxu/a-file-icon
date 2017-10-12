@@ -1,4 +1,299 @@
 {
+  "file_type_access": {
+    "color": "red",
+    "aliases": [
+      {
+        "name": "Plain Text (Microsoft Access)",
+        "extensions": [
+          "adn",
+          "accdb",
+          "accdr",
+          "accdt",
+          "accda",
+          "mdw",
+          "accde",
+          "mam",
+          "maq",
+          "mar",
+          "mat",
+          "maf",
+          "laccdb"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.access"
+      }
+    ]
+  },
+  "file_type_actionscript": {
+    "color": "red",
+    "syntaxes": [
+      {
+        "name": "ActionScript",
+        "scope": "source.actionscript"
+      }
+    ]
+  },
+  "file_type_ae": {
+    "color": "purple",
+    "aliases": [
+      {
+        "name": "Plain Text (Adobe After Effects)",
+        "extensions": [
+          "aep",
+          "aet"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.ae"
+      }
+    ]
+  },
+  "file_type_ai": {
+    "color": "orange",
+    "aliases":[
+      {
+        "name": "Plain Text (Adobe Illustrator)",
+        "extensions": [
+          "ai"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.ai"
+      }
+    ]
+  },
+  "file_type_angular": {
+    "color": "pink",
+    "syntaxes": [
+      {
+        "name": "Angular​JS",
+        "scope": "text.html.basic.angularjs"
+      }
+    ]
+  },
+  "file_type_applescript": {
+    "color": "graphite",
+    "syntaxes": [
+      {
+        "name": "AppleScript",
+        "scope": "source.applescript"
+      }
+    ]
+  },
+  "file_type_archive": {
+    "color": "graphite",
+    "aliases":[
+      {
+        "name": "Plain Text (Archive)",
+        "extensions": [
+          "7z",
+          "7zip",
+          "gz",
+          "pzip",
+          "rar",
+          "saz",
+          "tar",
+          "tgz",
+          "wim",
+          "zip"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.archive"
+      }
+    ]
+  },
+  "file_type_audio": {
+    "color": "red",
+    "aliases":[
+      {
+        "name": "Plain Text (Audio)",
+        "extensions": [
+          "mp3",
+          "m4p",
+          "aac",
+          "aiff",
+          "au",
+          "flac",
+          "m4a",
+          "mpc",
+          "mp+",
+          "mpp",
+          "oga",
+          "opus",
+          "ra",
+          "rm",
+          "wav",
+          "wma"
+        ],
+        "base": "text.plain",
+        "scope": "text.plain.audio"
+      }
+    ]
+  },
+  "file_type_babel": {
+    "color": "yellow",
+    "aliases": [
+      {
+        "name": "JSON (Babel)",
+        "linter": "json",
+        "extensions": [
+          ".babelrc"
+        ],
+        "base": "source.json",
+        "scope": "source.json.babel"
+      }
+    ]
+  },
+  "file_type_binary": {
+    "color": "graphite"
+  },
+  "file_type_blade": {
+    "color": "orange",
+    "syntaxes": [
+      {
+        "name": "Laravel Blade Highlighter",
+        "scope": "text.blade"
+      }
+    ]
+  },
+  "file_type_bower": {
+    "color": "yellow",
+    "aliases":[
+      {
+        "name": "JSON (Bower)",
+        "linter": "json",
+        "extensions": [
+          "bower.json",
+          ".bowerrc"
+        ],
+        "base": "source.json",
+        "scope": "source.json.bower"
+      }
+    ]
+  },
+  "file_type_c": {
+    "color": "purple",
+    "syntaxes": [
+      {
+        "name": "C",
+        "scope": "source.c"
+      },
+      {
+        "name": "Objective-C",
+        "scope": "source.objc"
+      }
+    ]
+  },
+  "file_type_circleci": {
+    "color": "graphite",
+    "aliases":[
+      {
+        "name": "YAML (CircleCI)",
+        "linter": "yaml",
+        "extensions": [
+          "circle.yml"
+        ],
+        "base": "source.yaml",
+        "scope": "source.yaml.circleci"
+      }
+    ]
+  },
+  "file_type_cf": {
+    "color": "cyan",
+    "syntaxes": [
+      {
+        "name": "ColdFusion",
+        "scope": "source.cfscript.cfc, text.html.cfm"
+      },
+      {
+        "name": "CFML",
+        "scope": "embedding.cfml, source.cfml.script"
+      }
+    ]
+  },
+  "file_type_clojure": {
+    "color": "purple",
+    "syntaxes": [
+      {
+        "name": "Clojure",
+        "scope": "source.clojure"
+      }
+    ]
+  },
+  "file_type_coffeescript": {
+    "color": "orange",
+    "syntaxes": [
+      {
+        "name": "CoffeeScript",
+        "scope": "source.coffee"
+      }
+    ]
+  },
+  "file_type_composer": {
+    "color": "orange",
+    "aliases": [
+      {
+        "name": "JSON (Composer)",
+        "linter": "json",
+        "extensions": [
+          "composer.json",
+          "composer.lock"
+        ],
+        "base": "source.json",
+        "scope": "source.json.composer"
+      }
+    ]
+  },
+  "file_type_cpp": {
+    "color": "sky",
+    "syntaxes": [
+      {
+        "name": "C++",
+        "scope": "source.c++"
+      }
+    ]
+  },
+  "file_type_csharp": {
+    "color": "blue",
+    "syntaxes": [
+      {
+        "name": "C#",
+        "scope": "source.cs"
+      }
+    ]
+  },
+  "file_type_css": {
+    "color": "blue",
+    "syntaxes": [
+      {
+        "name": "CSS",
+        "scope": "source.css"
+      }
+    ]
+  },
+  "file_type_csv": {
+    "color": "green",
+    "syntaxes": [
+      {
+        "name": "Advanced CSV",
+        "scope": "text.advanced_csv"
+      },
+      {
+        "name": "CSV Misc",
+        "scope": "text.csv"
+      }
+    ]
+  },
+  "file_type_dart": {
+    "color": "cyan",
+    "syntaxes": [
+      {
+        "name": "Dart",
+        "scope": "source.dart"
+      }
+    ]
+  },
+  "file_type_default": {
+    "color": "graphite"
+  },
   "file_type_dlang": {
     "color": "red",
     "syntaxes": [

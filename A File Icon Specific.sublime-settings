@@ -1,0 +1,103 @@
+{
+  /* ICON-SPECIFIC SETTINGS
+   * ************************************************************ *
+   * This file contains settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - These settings are pretty advanced and mostly for the
+  //    information and development purposes only.
+  //    Please read every comment carefully.
+  //  - A File Icon ignores all user icon-specific settings if they
+  //    are not color-related. For example, if you want to change
+  //    the recommended color of the JS icon just copy next:
+  //      ```
+  //      "file_type_js": {
+  //        "color": "$redish_color"
+  //      }
+  //      ```
+  //    to `Packages/User/A File Icon Specific.sublime-settings`.
+  //  - The engine uses these settings to generate all files
+  //    required to apply the icons.
+  //  - If you think that some icon is missing: feel free to file
+  //    your issue: https://github.com/ihodev/a-file-icon/issues.
+
+  /*
+    We use next format for the icon-specific settings:
+
+    // The name of the icon.
+    "file_type_foo": {
+
+      // The recommended color of the icon. Valid values are misc
+      // color formats and variables. See `Color Variables` and
+      // `Color Formats` sections in the general settings file.
+      // Note, this setting is used only when multi-color mode is
+      // enabled for the current UI theme.
+      "color": "$bluish_color",
+
+      // The list of syntaxes which use this icon. This setting is
+      // used to generate icon preferences for provided syntaxes.
+      // There are two types of syntax packages:
+      //   - default (Sublime Text provides the syntax by default),
+      //   - community-driven (should be installed via Package
+      //     Control or manually downloaded, cloned, etc.).
+      // If the syntax is maintained by community you'll see the
+      // "url" setting which contains all necessary information
+      // about the syntax package, this also means that you have to
+      // install this package to see the right icon.
+      // All icon preferences files can be found in `assets/prefs`.
+      "syntaxes": [
+        {
+          // Note, the syntax is provided by Sublime Text if it
+          // doesn't contain the "url" setting.
+
+          // The name of the syntax. This setting is used for
+          // information purposes only.
+          "name": "Foo",
+
+          // Where you can find all necessary information about
+          // the syntax package. This also means that you have to
+          // install this package to see the right icon.
+          "url": "https://packagecontrol.io/packages/Foo",
+
+          // The default (global) scope of the syntax.
+          "scope": "source.foo"
+        }
+      ],
+
+      // The list of syntax aliases which are associated with the
+      // icon. Syntax alias is just a regular syntax that is
+      // entirely based on a different language and has different
+      // semantics. E.g. `gulpfile.js` file uses `JavaScript` syntax
+      // by default, but A File Icon provides the syntax alias for
+      // it to use a different icon. This setting is used to
+      // generate syntax alias files and icon preferences for them.
+      // All syntax aliases can be found in `assets/aliases` folder,
+      // icon preferences – in `assets/prefs` folder. Note, all
+      // syntax aliases can be disabled in general settings.
+      "aliases": [
+        {
+          // The name of the syntax alias. The format is next:
+          // "<a name of the alias> (<a name of the base syntax>)".
+          "name": "Bar (Foo)",
+
+          // The recommended linter. This setting is used to add
+          // the proper syntax map in SublimeLinter settings.
+          "linter": "foo",
+
+          // The list of the file extensions is used to associate
+          // them with syntax alias.
+          "extensions": [
+            "bar"
+          ],
+
+          // The default (global) scope of the base syntax.
+          "base": "source.foo",
+
+          // The default (global) scope of the syntax alias.
+          "scope": "source.foo.bar"
+        }
+      ]
+    }
+  */
+}

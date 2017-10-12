@@ -68,8 +68,8 @@
   //  - "$background_color",
   //  - "$accent_color".
   // There is also one special variable – "$multi_color". It enables
-  // multicolor mode. In this mode A File Icon will use colors from
-  // from `A File Icon Color.sublime-settings` file on a per-icon
+  // multi-color mode. In this mode A File Icon will use colors from
+  // from `A File Icon Specific.sublime-settings` file on a per-icon
   // basis.
 
 
@@ -277,7 +277,7 @@
   // you want to align the text. Unlikely it is useful as a common
   // value, but can be used in the theme-specific settings. Change
   // it only if you know what you are doing.
-  "right_margin": 0,
+  "margin_right": 0,
 
 
 
