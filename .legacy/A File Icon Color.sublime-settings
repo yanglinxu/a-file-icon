@@ -1,0 +1,34 @@
+{
+  /* ICON-SPECIFIC SETTINGS – LEGACY COLORS
+   * ************************************************************ *
+   * This file contains legacy color settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Starting 4.0.0 we do not use next colors by default:
+  //  - sky (#1e9cef),
+  //  - pink (#f13c6f),
+  //  - cyan (#26a2c1).
+  // If you want to use previous colors you can copy these settings
+  // to `Packages/User/A File Icon Color.sublime-settings` file.
+
+  // The legacy icon color for Angular specific files.
+  "file_type_angular": "#f13c6f",
+
+  // The legacy icon color for Cold Fusion files.
+  "file_type_cf": "#26a2c1",
+
+  // The legacy icon color for C++ files.
+  "file_type_cpp": "#1e9cef",
+
+  // The legacy icon color for Dart files.
+  "file_type_dart": "#26a2c1",
+
+  // The legacy icon color for Docker specific files.
+  "file_type_docker": "#1e9cef",
+
+  // The legacy icon color for .NET specific files.
+  "file_type_dotnet": "#26a2c1",
+
+  // The legacy icon color for Elm files.
+  "file_type_elm": "#26a2c1",
+}

@@ -1,0 +1,34 @@
+{
+  /* ICON-SPECIFIC SETTINGS – SYNTAX PACKAGES
+   * ************************************************************ *
+   * This file contains syntax settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - We use these settings to generate icon preferences for
+  //    provided syntaxes.
+  //  - All icon preferences files can be found in `assets/prefs`.
+  //  - If you think that some icon is missing: feel free to file
+  //    your issue: https://github.com/ihodev/a-file-icon/issues.
+
+  /*
+    // The list of packages with syntaxes which use the icon.
+    "file_type_foo": [
+      {
+        // The name of the syntax package. This setting is used
+        // for information purposes only.
+        "package_name": "Foo",
+
+        // Where you can find all necessary information about
+        // the syntax package. Indicates that syntax package is
+        // maintained by community.This also means that you have to
+        // install this package to see the right icon.
+        "package_url": "https://packagecontrol.io/packages/Foo",
+
+        // A comma-separated list of default scopes provided by
+        // the syntaxes of the package.
+        "package_scopes": "source.foo, text.foo.basic"
+      }
+    ],
+  */
+}

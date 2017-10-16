@@ -1,0 +1,50 @@
+{
+  /* ICON-SPECIFIC SETTINGS – SYNTAX ALIASES
+   * ************************************************************ *
+   * This file contains alias settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note:
+  //  - We use these settings to generate syntax aliases and icon
+  //    preferences for them.
+  //  - All syntax alias files can be found in `assets/aliases`.
+  //  - All icon preferences files can be found in `assets/prefs`.
+  //  - All syntax aliases can be disabled in the general settings.
+  //  - If you think that some icon is missing: feel free to file
+  //    your issue: https://github.com/ihodev/a-file-icon/issues.
+
+  /*
+    // The list of syntax aliases which are associated with the
+    // icon. Syntax alias is just a regular syntax that is
+    // entirely based on a different language and has different
+    // semantics. E.g. `gulpfile.js` file uses `JavaScript` syntax
+    // by default, but A File Icon provides the syntax alias for
+    // it to use a different icon.
+    "file_type_foo": [
+      {
+        // The name of the syntax alias. The format is next:
+        // "<a name of the alias> (<a name of the base syntax>)".
+        "alias_name": "Bar (Foo)",
+
+        // The list of the file extensions is used to associate
+        // them with syntax alias.
+        "alias_extensions": [
+          "bar"
+        ],
+
+        // The suggested linter. This setting is used to add
+        // the proper syntax map in SublimeLinter settings.
+        "alias_linter": "foo",
+
+        // The default scope of the syntax alias.
+        "alias_scope": "source.foo.bar",
+
+        // The default scope of the base syntax.
+        "base_scope": "source.foo",
+
+        // Path to the base syntax file.
+        "base_syntax": "Packages/Foo/Foo.sublime-syntax"
+      }
+    ],
+  */
+}

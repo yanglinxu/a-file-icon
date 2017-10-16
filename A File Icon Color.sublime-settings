@@ -1,0 +1,12 @@
+{
+  /* ICON-SPECIFIC SETTINGS – RECOMMENDED COLORS
+   * ************************************************************ *
+   * This file contains color settings on a per-icon basis.
+   * ************************************************************ */
+
+  // Note, these settings are used only when multi-color mode is
+  // enabled for the current UI theme. Valid values are various
+  // color formats. See `Color Formats` and `Multi Color` sections
+  // in the general settings file for more details.
+
+}

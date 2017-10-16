@@ -13,11 +13,4 @@
   //    colorization of icons.
   // Set to "default" to use colors provided by the settings.
   "color_provider": "default",
-
-  // If your theme supports colorization of icons and
-  // "color_provider" is "color_scheme" you can use next colors
-  // derived from the current global color scheme:
-  //  - "$foreground_color",
-  //  - "$background_color",
-  //  - "$accent_color".
 }

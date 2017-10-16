@@ -44,7 +44,7 @@
   //    A File Icon package:
   //    * `file_type_js.png`,
   //    * `file_type_js@2x.png`,
-  //  - put them to `Packages/User/{A File Icon}/overrides` folder,
+  //  - put them to `Packages/User/{A File Icon}/user/icons` dir,
   //  - run "A File Icon: Re-apply Icons" command.
 
 
@@ -124,7 +124,7 @@
   //    on a per-icon basis and "icon_color_<state>" settings are
   //    ignored.
   //  - The recommended color for each icon can be found in
-  //    `A File Icon Specific.sublime-settings` file.
+  //    `A File Icon Color.sublime-settings` file.
   //  - Theme developers may override these colors for the better
   //    integration with their themes.
   //  - Valid values are various color formats. Derived color
@@ -132,25 +132,25 @@
   //    section for more details.
 
   // The color of the grayish icons.
-  "icon_color_grayish": "#798385",
+  "grayish_icon_color": "#798385",
 
   // The color of the redish icons.
-  "icon_color_redish": "#d52a29",
+  "redish_icon_color": "#d52a29",
 
   // The color of the orangish icons.
-  "icon_color_orangish": "#ea7130",
+  "orangish_icon_color": "#ea7130",
 
   // The color of the yellowish icons.
-  "icon_color_yellowish": "#e79627",
+  "yellowish_icon_color": "#e79627",
 
   // The color of the greenish icons.
-  "icon_color_greenish": "#6aab20",
+  "greenish_icon_color": "#6aab20",
 
   // The color of the bluish icons.
-  "icon_color_bluish": "#497ce3",
+  "bluish_icon_color": "#497ce3",
 
   // The color of the purplish icons.
-  "icon_color_purplish": "#7963e6",
+  "purplish_icon_color": "#7963e6",
 
 
 
