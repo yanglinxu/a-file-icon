@@ -7,22 +7,19 @@
   // Note:
   //  - In most cases global settings should work fine, otherwise
   //    you can tweak the appearance of icons for your theme here.
-  //  - Theme developers can provide recommended icon-specific
-  //    settings on a per-theme basis. You can also override them
-  //    here if you don't like the recommended ones.
-  //  - Some themes support colorization of icons (all icon assets
-  //    should be white). Our engine will use colors provided
-  //    in the settings for them. Themes that already have support
-  //    of the icon colorization include:
-  //      * Adaptive (Theme - Default),
-  //      * DA (DA UI).
   //  - All general settings can be overridden.
+  //  - Theme developers can provide recommended settings on a
+  //    per-theme basis. You can also override them here if you
+  //    don't like the recommended ones.
+  //  - Some themes support colorization of icons (all icon assets
+  //    should be white). The engine will use colors provided in the
+  //    settings for them.
   //  - Additionally you can provide next boolean settings on
   //    a per-theme basis:
-  //      * "supports_colorization" – indicates that theme supports
-  //        colorization of icons,
-  //      * "ignored" – tells our engine to ignore the theme and do
-  //        not create any icon related patches.
+  //      * "supports_icon_colorization" – indicates that the theme
+  //        supports colorization of icons,
+  //      * "ignored" – tells to ignore the theme and do no create
+  //        any icon related patches.
   //  - Your custom settings should follow our convention:
   //    "<theme name without `.sublime-theme`>": {
   //      < custom theme settings ... >
@@ -35,16 +32,14 @@
 
   // Custom settings for `Default.sublime-theme`.
   "Default": {
-    "default_opacity": 0.7,
-    "hover_opacity": 0.7,
-    "margin_right": 2
+    "icon_margin_right": 2,
+    "icon_opacity_on_hover": 0.7
   },
 
   // Custom settings for `Adaptive.sublime-theme`.
   "Adaptive": {
-    "default_opacity": 0.7,
-    "hover_opacity": 0.7,
-    "margin_right": 2,
-    "supports_colorization": true
+    "icon_margin_right": 2,
+    "icon_opacity_on_hover": 0.7,
+    "supports_icon_colorization": true
   }
 }

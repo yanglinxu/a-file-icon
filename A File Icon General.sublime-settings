@@ -56,17 +56,12 @@
   // Color Variables
   // ===============================================================
 
-  // A File Icon provides a bunch of color variables to improve
-  // your experience with a customization of the icon appearance.
-  // Every color-specific setting may be used as `variable`, just
-  // prefix its name with `$`.
-
-  // It is possible to use next colors from the current global color
-  // scheme: "$scheme_foreground_color", "$scheme_accent_color" and
-  // "$scheme_background_color". These colors are abstraction over
+  // It is possible to use next colors from the current global
+  // color scheme: "$foreground_color", "$background_color" and
+  // "$accent_color". These color variables are abstraction over
   // https://www.sublimetext.com/docs/3/themes.html#colors-derived
-  // and in terms of Sublime Text we call them `derived` colors too.
-  // Note, derived colors are supported in the next settings only:
+  // and in terms of Sublime Text we call them `derived` colors.
+  // Note, derived colors are supported by the next settings only:
   //  - "icon_color",
   //  - "icon_color_on_hover",
   //  - "icon_color_on_selected".
@@ -80,9 +75,9 @@
   // Usage:
   //  - "black",
   //  - "#fff",
-  //  - ["rgb", 163, 194, 116],
-  //  - ["hsla", 84, 40, 76, 0.5],
-  //  - "$greenish_color".
+  //  - "rgb(163, 194, 116)",
+  //  - "hsla(84, 40%, 76%, 0.5)",
+  //  - "$accent_color".
 
 
   // Color Modes
@@ -111,10 +106,10 @@
   "icon_color": "#808080",
 
   // The color of the icon when your mouse over it.
-  "icon_color_on_hover": "$icon_color",
+  "icon_color_on_hover": "",
 
   // The color of the icon when it is in selected row.
-  "icon_color_on_selected": "$icon_color",
+  "icon_color_on_selected": "",
 
 
   // Multi Color
@@ -134,7 +129,7 @@
   //    integration with their themes.
   //  - Valid values are various color formats. Derived color
   //    variables are not supported here. See `Color Formats`
-  //    and `Color Variables` sections for more details.
+  //    section for more details.
 
   // The color of the grayish icons.
   "icon_color_grayish": "#798385",
