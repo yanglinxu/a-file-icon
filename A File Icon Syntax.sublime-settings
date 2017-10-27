@@ -34,4 +34,12 @@
       }
     ],
   */
+
+  // The syntax packages for ActionScript files.
+  "file_type_actionscript": [
+    {
+      "package_name": "ActionScript",
+      "package_scopes": "source.actionscript"
+    }
+  ],
 }

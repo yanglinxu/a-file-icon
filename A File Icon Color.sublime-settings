@@ -16,4 +16,7 @@
 
   // The icon color for Microsoft Access files.
   "file_type_access": "$redish_icon_color",
+
+  // The icon color for ActionScript files.
+  "file_type_actionscript": "$redish_icon_color",
 }

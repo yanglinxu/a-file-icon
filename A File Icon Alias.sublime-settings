@@ -51,7 +51,7 @@
     ],
   */
 
-  // The syntax aliases for Microsoft Access files
+  // The syntax aliases for Microsoft Access files.
   "file_type_access": [
     {
       "alias_name": "Plain Text (Microsoft Access)",

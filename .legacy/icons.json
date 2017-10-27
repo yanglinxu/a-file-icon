@@ -1,15 +1,4 @@
 {
-  // The icon settings for ActionScript files.
-  "file_type_actionscript": {
-    "color": "$redish_color",
-    "syntaxes": [
-      {
-        "name": "ActionScript",
-        "scope": "source.actionscript"
-      }
-    ]
-  },
-
   // The icon settings for Adobe After Effects files.
   "file_type_ae": {
     "color": "$purplish_color",
