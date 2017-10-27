@@ -75,4 +75,18 @@
       "base_syntax": "Packages/Text/Plain text.tmLanguage"
     }
   ],
+
+  // The syntax aliases for Adobe After Effects files.
+  "file_type_ae": [
+    {
+      "alias_name": "Plain Text (Adobe After Effects)",
+      "alias_extensions": [
+        "aep",
+        "aet"
+      ],
+      "alias_scope": "text.plain.ae",
+      "base_scope": "text.plain",
+      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+    }
+  ],
 }

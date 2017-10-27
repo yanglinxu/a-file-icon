@@ -1,20 +1,4 @@
 {
-  // The icon settings for Adobe After Effects files.
-  "file_type_ae": {
-    "color": "$purplish_color",
-    "aliases": [
-      {
-        "name": "Plain Text (Adobe After Effects)",
-        "extensions": [
-          "aep",
-          "aet"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.ae"
-      }
-    ]
-  },
-
   // The icon settings for Adobe Illustrator files.
   "file_type_ai": {
     "color": "$orangish_color",

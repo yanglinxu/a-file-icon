@@ -19,4 +19,7 @@
 
   // The icon color for ActionScript files.
   "file_type_actionscript": "$redish_icon_color",
+
+  // The icon color for Adobe After Effects files.
+  "file_type_ae": "$purplish_icon_color",
 }
