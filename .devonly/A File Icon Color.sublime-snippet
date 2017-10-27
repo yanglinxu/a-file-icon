@@ -2,7 +2,7 @@
   <content>
 <![CDATA[
 // The icon color for $1 files.
-"$2": "",
+"$2": "$3",
 ]]>
   </content>
   <tabTrigger>color</tabTrigger>

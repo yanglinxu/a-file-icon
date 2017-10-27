@@ -42,4 +42,13 @@
       "package_scopes": "source.actionscript"
     }
   ],
+
+  // The syntax packages for Angular specific files.
+  "file_type_angular": [
+    {
+      "package_name": "Angular​JS",
+      "package_url": "https://packagecontrol.io/packages/AngularJS",
+      "package_scopes": "text.html.basic.angularjs"
+    }
+  ],
 }

@@ -1,16 +1,4 @@
 {
-  // The icon settings for Angular specific files.
-  "file_type_angular": {
-    "color": "$redish_color",
-    "syntaxes": [
-      {
-        "name": "Angular​JS",
-        "url": "https://packagecontrol.io/packages/AngularJS",
-        "scope": "text.html.basic.angularjs"
-      }
-    ]
-  },
-
   // The icon settings for AppleScript files.
   "file_type_applescript": {
     "color": "$grayish_color",

@@ -25,4 +25,7 @@
 
   // The icon color for Adobe Illustrator files.
   "file_type_ai": "$orangish_icon_color",
+
+  // The icon color for Angular specific files.
+  "file_type_angular": "$redish_icon_color",
 }
