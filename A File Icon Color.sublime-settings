@@ -4,9 +4,14 @@
    * This file contains color settings on a per-icon basis.
    * ************************************************************ */
 
-  // Note, these settings are used only when multi-color mode is
-  // enabled for the current UI theme. Valid values are various
-  // color formats. See `Color Formats` and `Multi Color` sections
-  // in the general settings file for more details.
+  // Note:
+  //  - These settings are used only when multi-color mode is
+  //    enabled for the current UI theme.
+  //  - Valid values are various color formats. See `Color Formats`
+  //    and `Multi Color` sections in the general settings file
+  //    for more details.
+  //  - The name of each setting should match the corresponding icon
+  //    name without extension. E.g. we have the `file_type_foo.png`
+  //    icon for Foo files, so the name is `file_type_foo`.
 
 }

@@ -13,6 +13,9 @@
 
   /*
     // The list of packages with syntaxes which use the icon.
+    // Note, the name of this setting should match the icon asset
+    // name without extension. E.g. we have the `file_type_foo.png`
+    // icon for Foo files, so the name is next:
     "file_type_foo": [
       {
         // The name of the syntax package. This setting is used
