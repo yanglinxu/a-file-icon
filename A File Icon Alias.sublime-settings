@@ -39,9 +39,6 @@
         // the proper syntax map in SublimeLinter settings.
         "alias_linter": "foo",
 
-        // The default scope of the syntax alias.
-        "alias_scope": "source.foo.bar",
-
         // The default scope of the base syntax.
         "base_scope": "source.foo",
 
@@ -70,7 +67,6 @@
         "maf",
         "laccdb"
       ],
-      "alias_scope": "text.plain.access",
       "base_scope": "text.plain",
       "base_syntax": "Packages/Text/Plain text.tmLanguage"
     }
@@ -84,7 +80,18 @@
         "aep",
         "aet"
       ],
-      "alias_scope": "text.plain.ae",
+      "base_scope": "text.plain",
+      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+    }
+  ],
+
+  // The syntax aliases for Adobe Illustrator files.
+  "file_type_ai": [
+    {
+      "alias_name": "Plain Text (Adobe Illustrator)",
+      "alias_extensions": [
+        "ai"
+      ],
       "base_scope": "text.plain",
       "base_syntax": "Packages/Text/Plain text.tmLanguage"
     }

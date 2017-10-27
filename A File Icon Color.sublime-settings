@@ -22,4 +22,7 @@
 
   // The icon color for Adobe After Effects files.
   "file_type_ae": "$purplish_icon_color",
+
+  // The icon color for Adobe Illustrator files.
+  "file_type_ai": "$orangish_icon_color",
 }

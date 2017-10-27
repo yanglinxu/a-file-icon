@@ -1,19 +1,4 @@
 {
-  // The icon settings for Adobe Illustrator files.
-  "file_type_ai": {
-    "color": "$orangish_color",
-    "aliases":[
-      {
-        "name": "Plain Text (Adobe Illustrator)",
-        "extensions": [
-          "ai"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.ai"
-      }
-    ]
-  },
-
   // The icon settings for Angular specific files.
   "file_type_angular": {
     "color": "$redish_color",
