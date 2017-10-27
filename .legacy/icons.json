@@ -1,7 +1,6 @@
 {
   // The icon settings for Microsoft Access files.
   "file_type_access": {
-    "color": "$redish_color",
     "aliases": [
       {
         "name": "Plain Text (Microsoft Access)",

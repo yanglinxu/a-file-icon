@@ -14,4 +14,6 @@
   //    name without extension. E.g. we have the `file_type_foo.png`
   //    icon for Foo files, so the name is `file_type_foo`.
 
+  // The icon color for Microsoft Access files.
+  "file_type_access": "$redish_icon_color",
 }
