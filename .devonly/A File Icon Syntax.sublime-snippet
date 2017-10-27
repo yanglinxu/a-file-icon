@@ -1,7 +1,7 @@
 <snippet>
   <content>
 <![CDATA[
-// The syntax packages for $1 files
+// The syntax packages for $1 files.
 "$2": [
   {
     "package_name": "$3",

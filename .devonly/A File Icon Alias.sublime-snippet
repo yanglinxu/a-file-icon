@@ -1,7 +1,7 @@
 <snippet>
   <content>
 <![CDATA[
-// The syntax aliases for $1 files
+// The syntax aliases for $1 files.
 "$2": [
   {
     "alias_name": "$3",
