@@ -1,30 +1,4 @@
 {
-  // The icon settings for Microsoft Access files.
-  "file_type_access": {
-    "aliases": [
-      {
-        "name": "Plain Text (Microsoft Access)",
-        "extensions": [
-          "adn",
-          "accdb",
-          "accdr",
-          "accdt",
-          "accda",
-          "mdw",
-          "accde",
-          "mam",
-          "maq",
-          "mar",
-          "mat",
-          "maf",
-          "laccdb"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.access"
-      }
-    ]
-  },
-
   // The icon settings for ActionScript files.
   "file_type_actionscript": {
     "color": "$redish_color",

@@ -21,9 +21,9 @@
     // by default, but A File Icon provides the syntax alias for
     // it to use a different icon.
     // Note, the name of this setting should match the icon asset
-    // name without extension. E.g. we have the `file_type_foo.png`
-    // icon for Foo files, so the name is next:
-    "file_type_foo": [
+    // name without extension. E.g. we have the `file_type_bar.png`
+    // icon for Bar files, so the name is next:
+    "file_type_bar": [
       {
         // The name of the syntax alias. The format is next:
         // "<a name of the alias> (<a name of the base syntax>)".
@@ -50,4 +50,29 @@
       }
     ],
   */
+
+  // The syntax aliases for Microsoft Access files
+  "file_type_access": [
+    {
+      "alias_name": "Plain Text (Microsoft Access)",
+      "alias_extensions": [
+        "adn",
+        "accdb",
+        "accdr",
+        "accdt",
+        "accda",
+        "mdw",
+        "accde",
+        "mam",
+        "maq",
+        "mar",
+        "mat",
+        "maf",
+        "laccdb"
+      ],
+      "alias_scope": "text.plain.access",
+      "base_scope": "text.plain",
+      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+    }
+  ],
 }
