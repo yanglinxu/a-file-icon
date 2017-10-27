@@ -1,15 +1,4 @@
 {
-  // The icon settings for AppleScript files.
-  "file_type_applescript": {
-    "color": "$grayish_color",
-    "syntaxes": [
-      {
-        "name": "AppleScript",
-        "scope": "source.applescript"
-      }
-    ]
-  },
-
   // The icon settings for archive files.
   "file_type_archive": {
     "color": "$grayish_color",

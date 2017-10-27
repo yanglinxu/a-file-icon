@@ -51,4 +51,12 @@
       "package_scopes": "text.html.basic.angularjs"
     }
   ],
+
+  // The syntax packages for AppleScript files.
+  "file_type_applescript": [
+    {
+      "package_name": "AppleScript",
+      "package_scopes": "source.applescript"
+    }
+  ],
 }

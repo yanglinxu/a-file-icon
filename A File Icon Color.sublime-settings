@@ -28,4 +28,7 @@
 
   // The icon color for Angular specific files.
   "file_type_angular": "$redish_icon_color",
+
+  // The icon color for AppleScript files.
+  "file_type_applescript": "$grayish_icon_color",
 }
