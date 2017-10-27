@@ -1,0 +1,22 @@
+<snippet>
+  <content>
+<![CDATA[
+// The syntax aliases for $1 files
+"$2": [
+  {
+    "alias_name": "$3",
+    "alias_extensions": [
+      "$4"
+    ],
+    "alias_linter": "$5",
+    "alias_scope": "$6",
+    "base_scope": "$7",
+    "base_syntax": "$8"
+  }
+],
+]]>
+  </content>
+  <tabTrigger>alias</tabTrigger>
+  <scope>source.json</scope>
+  <description>A File Icon Alias Snippet</description>
+</snippet>
