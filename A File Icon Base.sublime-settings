@@ -5,14 +5,14 @@
    * use to generate the syntax aliases.
    * ************************************************************ */
 
-  // Plain Text syntax file.
+  // Base text syntax file.
   "text": {
     "syntax_name": "Plain Text",
     "syntax_path": "Packages/Text/Plain text.tmLanguage",
     "syntax_scope": "text.plain"
   },
 
-  // JSON syntax file.
+  // Base JSON syntax file.
   "json": {
     "syntax_name": "JSON",
     "syntax_path": "Packages/JavaScript/JSON.sublime-syntax",
