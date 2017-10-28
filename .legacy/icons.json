@@ -1,28 +1,4 @@
 {
-  // The icon settings for archive files.
-  "file_type_archive": {
-    "color": "$grayish_color",
-    "aliases":[
-      {
-        "name": "Plain Text (Archive)",
-        "extensions": [
-          "7z",
-          "7zip",
-          "gz",
-          "pzip",
-          "rar",
-          "saz",
-          "tar",
-          "tgz",
-          "wim",
-          "zip"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.archive"
-      }
-    ]
-  },
-
   // The icon settings for audio files.
   "file_type_audio": {
     "color": "$redish_color",

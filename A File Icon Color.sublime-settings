@@ -31,4 +31,7 @@
 
   // The icon color for AppleScript files.
   "file_type_applescript": "$grayish_icon_color",
+
+  // The icon color for archive files.
+  "file_type_archive": "$grayish_icon_color",
 }

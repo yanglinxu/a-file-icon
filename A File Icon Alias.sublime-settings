@@ -96,4 +96,25 @@
       "base_syntax": "Packages/Text/Plain text.tmLanguage"
     }
   ],
+
+  // The syntax aliases for archive files.
+  "file_type_archive": [
+    {
+      "alias_name": "Plain Text (Archive)",
+      "alias_extensions": [
+        "7z",
+        "7zip",
+        "gz",
+        "pzip",
+        "rar",
+        "saz",
+        "tar",
+        "tgz",
+        "wim",
+        "zip"
+      ],
+      "base_scope": "text.plain",
+      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+    }
+  ],
 }
