@@ -40,4 +40,7 @@
 
   // The icon color for Babel specific files.
   "file_type_babel": "$yellowish_icon_color",
+
+  // The icon color for binary files.
+  "file_type_binary": "$grayish_icon_color",
 }

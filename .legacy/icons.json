@@ -1,25 +1,4 @@
 {
-  // The icon settings for Babel specific files.
-  "file_type_babel": {
-    "color": "$yellowish_color",
-    "aliases": [
-      {
-        "name": "JSON (Babel)",
-        "linter": "json",
-        "extensions": [
-          ".babelrc"
-        ],
-        "base": "source.json",
-        "scope": "source.json.babel"
-      }
-    ]
-  },
-
-  // The icon settings for binary files.
-  "file_type_binary": {
-    "color": "$grayish_color"
-  },
-
   // The icon settings for Laravel Blade files.
   "file_type_blade": {
     "color": "$orangish_color",
