@@ -39,11 +39,10 @@
         // the proper syntax map in SublimeLinter settings.
         "alias_linter": "foo",
 
-        // The default scope of the base syntax.
-        "base_scope": "source.foo",
-
-        // Path to the base syntax file.
-        "base_syntax": "Packages/Foo/Foo.sublime-syntax"
+        // The base syntax used to create the syntax alias.
+        // The list of all base syntaxes can be found in
+        // "A File Icon Base.sublime-settings" file.
+        "base_syntax": "foo"
       }
     ],
   */
@@ -51,7 +50,7 @@
   // The syntax aliases for Microsoft Access files.
   "file_type_access": [
     {
-      "alias_name": "Plain Text (Microsoft Access)",
+      "alias_name": "Microsoft Access",
       "alias_extensions": [
         "adn",
         "accdb",
@@ -67,40 +66,37 @@
         "maf",
         "laccdb"
       ],
-      "base_scope": "text.plain",
-      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+      "base_syntax": "text"
     }
   ],
 
   // The syntax aliases for Adobe After Effects files.
   "file_type_ae": [
     {
-      "alias_name": "Plain Text (Adobe After Effects)",
+      "alias_name": "Adobe After Effects",
       "alias_extensions": [
         "aep",
         "aet"
       ],
-      "base_scope": "text.plain",
-      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+      "base_syntax": "text"
     }
   ],
 
   // The syntax aliases for Adobe Illustrator files.
   "file_type_ai": [
     {
-      "alias_name": "Plain Text (Adobe Illustrator)",
+      "alias_name": "Adobe Illustrator",
       "alias_extensions": [
         "ai"
       ],
-      "base_scope": "text.plain",
-      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+      "base_syntax": "text"
     }
   ],
 
   // The syntax aliases for archive files.
   "file_type_archive": [
     {
-      "alias_name": "Plain Text (Archive)",
+      "alias_name": "Archive",
       "alias_extensions": [
         "7z",
         "7zip",
@@ -113,15 +109,14 @@
         "wim",
         "zip"
       ],
-      "base_scope": "text.plain",
-      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+      "base_syntax": "text"
     }
   ],
 
   // The syntax aliases for audio files.
   "file_type_audio": [
     {
-      "alias_name": "Plain Text (Audio)",
+      "alias_name": "Audio",
       "alias_extensions": [
         "mp3",
         "m4p",
@@ -140,8 +135,19 @@
         "wav",
         "wma"
       ],
-      "base_scope": "text.plain",
-      "base_syntax": "Packages/Text/Plain text.tmLanguage"
+      "base_syntax": "text"
+    }
+  ],
+
+  // The syntax aliases for Babel specific files.
+  "file_type_babel": [
+    {
+      "alias_name": "Babel",
+      "alias_extensions": [
+        ".babelrc"
+      ],
+      "alias_linter": "json",
+      "base_syntax": "json"
     }
   ],
 }

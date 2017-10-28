@@ -9,8 +9,7 @@
       $4
     ],
     "alias_linter": "$5",
-    "base_scope": "$6",
-    "base_syntax": "$7"
+    "base_syntax": "$6"
   }
 ],
 ]]>

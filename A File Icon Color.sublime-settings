@@ -37,4 +37,7 @@
 
   // The icon color for audio files.
   "file_type_audio": "$redish_icon_color",
+
+  // The icon color for Babel specific files.
+  "file_type_babel": "$yellowish_icon_color",
 }

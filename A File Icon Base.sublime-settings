@@ -1,0 +1,21 @@
+{
+  /* BASE SYNTAX FILES
+   * ************************************************************ *
+   * This file contains the list of the base syntaxes which we
+   * use to generate the syntax aliases.
+   * ************************************************************ */
+
+  // Plain Text syntax file.
+  "text": {
+    "syntax_name": "Plain Text",
+    "syntax_path": "Packages/Text/Plain text.tmLanguage",
+    "syntax_scope": "text.plain"
+  },
+
+  // JSON syntax file.
+  "json": {
+    "syntax_name": "JSON",
+    "syntax_path": "Packages/JavaScript/JSON.sublime-syntax",
+    "syntax_scope": "source.json"
+  }
+}
