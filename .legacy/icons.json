@@ -1,34 +1,4 @@
 {
-  // The icon settings for audio files.
-  "file_type_audio": {
-    "color": "$redish_color",
-    "aliases":[
-      {
-        "name": "Plain Text (Audio)",
-        "extensions": [
-          "mp3",
-          "m4p",
-          "aac",
-          "aiff",
-          "au",
-          "flac",
-          "m4a",
-          "mpc",
-          "mp+",
-          "mpp",
-          "oga",
-          "opus",
-          "ra",
-          "rm",
-          "wav",
-          "wma"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.audio"
-      }
-    ]
-  },
-
   // The icon settings for Babel specific files.
   "file_type_babel": {
     "color": "$yellowish_color",

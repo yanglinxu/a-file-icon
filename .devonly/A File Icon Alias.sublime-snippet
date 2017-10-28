@@ -6,7 +6,7 @@
   {
     "alias_name": "$3",
     "alias_extensions": [
-      "$4"
+      $4
     ],
     "alias_linter": "$5",
     "base_scope": "$6",
