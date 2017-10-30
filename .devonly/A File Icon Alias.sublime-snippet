@@ -8,8 +8,7 @@
     "alias_extensions": [
       $4
     ],
-    "alias_linter": "$5",
-    "base_syntax": "$6"
+    "base_syntax": "$5"
   }
 ],
 ]]>

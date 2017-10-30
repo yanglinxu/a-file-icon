@@ -25,19 +25,14 @@
     // icon for Bar files, so the name is next:
     "file_type_bar": [
       {
-        // The name of the syntax alias. The format is next:
-        // "<a name of the alias> (<a name of the base syntax>)".
-        "alias_name": "Bar (Foo)",
+        // The name of the syntax alias.
+        "alias_name": "Bar",
 
         // The list of the file extensions is used to associate
         // them with syntax alias.
         "alias_extensions": [
           "bar"
         ],
-
-        // The suggested linter. This setting is used to add
-        // the proper syntax map in SublimeLinter settings.
-        "alias_linter": "foo",
 
         // The base syntax used to create the syntax alias.
         // The list of all base syntaxes can be found in
@@ -146,7 +141,6 @@
       "alias_extensions": [
         ".babelrc"
       ],
-      "alias_linter": "json",
       "base_syntax": "json"
     }
   ],
