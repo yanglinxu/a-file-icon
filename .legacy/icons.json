@@ -1,21 +1,4 @@
 {
-  // The icon settings for Bower specific files.
-  "file_type_bower": {
-    "color": "$yellowish_color",
-    "aliases":[
-      {
-        "name": "JSON (Bower)",
-        "linter": "json",
-        "extensions": [
-          "bower.json",
-          ".bowerrc"
-        ],
-        "base": "source.json",
-        "scope": "source.json.bower"
-      }
-    ]
-  },
-
   // The icon settings for C files.
   "file_type_c": {
     "color": "$purplish_color",

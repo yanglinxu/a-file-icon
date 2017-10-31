@@ -46,4 +46,7 @@
 
   // The icon color for Laravel Blade files.
   "file_type_blade": "$orangish_icon_color",
+
+  // The icon color for Bower specific files.
+  "file_type_bower": "$yellowish_icon_color",
 }

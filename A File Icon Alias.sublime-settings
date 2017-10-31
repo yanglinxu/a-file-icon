@@ -144,4 +144,16 @@
       "base_syntax": "json"
     }
   ],
+
+  // The syntax aliases for Bower specific files.
+  "file_type_bower": [
+    {
+      "alias_name": "Bower",
+      "alias_extensions": [
+        "bower.json",
+        ".bowerrc"
+      ],
+      "base_syntax": "json"
+    }
+  ],
 }
