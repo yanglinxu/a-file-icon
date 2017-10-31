@@ -80,4 +80,13 @@
       "package_scopes": "source.objc"
     }
   ],
+
+  // The syntax packages for Cold Fusion and Lucee files.
+  "file_type_cf": [
+    {
+      "package_name": "CFML",
+      "package_url": "https://packagecontrol.io/packages/CFML",
+      "package_scopes": "embedding.cfml"
+    }
+  ],
 }

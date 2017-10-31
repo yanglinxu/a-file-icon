@@ -1,16 +1,4 @@
 {
-  // The icon settings for Cold Fusion and Lucee files.
-  "file_type_cf": {
-    "color": "$bluish_color",
-    "syntaxes": [
-      {
-        "name": "CFML",
-        "url": "https://packagecontrol.io/packages/CFML",
-        "scope": "embedding.cfml"
-      }
-    ]
-  },
-
   // The icon settings for Clojure files.
   "file_type_clojure": {
     "color": "$purplish_color",

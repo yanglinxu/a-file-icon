@@ -55,4 +55,7 @@
 
   // The icon color for Circle CI specific files.
   "file_type_circleci": "$grayish_icon_color",
+
+  // The icon color for Cold Fusion and Lucee files.
+  "file_type_cf": "$bluish_icon_color",
 }
