@@ -89,4 +89,12 @@
       "package_scopes": "embedding.cfml"
     }
   ],
+
+  // The syntax packages for Clojure files.
+  "file_type_clojure": [
+    {
+      "package_name": "Clojure",
+      "package_scopes": "source.clojure"
+    }
+  ],
 }

@@ -58,4 +58,7 @@
 
   // The icon color for Cold Fusion and Lucee files.
   "file_type_cf": "$bluish_icon_color",
+
+  // The icon color for Clojure files.
+  "file_type_clojure": "$purplish_icon_color",
 }

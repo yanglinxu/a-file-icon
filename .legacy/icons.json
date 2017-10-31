@@ -1,15 +1,4 @@
 {
-  // The icon settings for Clojure files.
-  "file_type_clojure": {
-    "color": "$purplish_color",
-    "syntaxes": [
-      {
-        "name": "Clojure",
-        "scope": "source.clojure"
-      }
-    ]
-  },
-
   // The icon settings for CoffeeScript files.
   "file_type_coffeescript": {
     "color": "$orangish_color",
