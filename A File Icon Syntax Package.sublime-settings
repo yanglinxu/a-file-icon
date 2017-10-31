@@ -122,4 +122,17 @@
       "package_scopes": "source.cs"
     }
   ],
+
+  // The syntax packages for CSS files.
+  "file_type_css": [
+    {
+      "package_name": "CSS",
+      "package_scopes": "source.css"
+    },
+    {
+      "package_name": "CSS3",
+      "package_url": "https://packagecontrol.io/packages/CSS3",
+      "package_scopes": "source.css"
+    }
+  ],
 }

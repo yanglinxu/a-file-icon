@@ -73,4 +73,7 @@
 
   // The icon color for C# files.
   "file_type_csharp": "$bluish_icon_color",
+
+  // The icon color for CSS files.
+  "file_type_css": "$bluish_icon_color",
 }

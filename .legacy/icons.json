@@ -1,15 +1,4 @@
 {
-  // The icon settings for CSS files.
-  "file_type_css": {
-    "color": "$bluish_color",
-    "syntaxes": [
-      {
-        "name": "CSS",
-        "scope": "source.css"
-      }
-    ]
-  },
-
   // The icon settings for CSV files.
   "file_type_csv": {
     "color": "$greenish_color",
