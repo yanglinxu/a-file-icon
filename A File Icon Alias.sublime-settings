@@ -156,4 +156,15 @@
       "base_syntax": "json"
     }
   ],
+
+  // The syntax aliases for Circle CI specific files.
+  "file_type_circleci": [
+    {
+      "alias_name": "CircleCI",
+      "alias_extensions": [
+        "circle.yml"
+      ],
+      "base_syntax": "yaml"
+    }
+  ],
 }

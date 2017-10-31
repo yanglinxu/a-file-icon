@@ -52,4 +52,7 @@
 
   // The icon color for C files.
   "file_type_c": "$purplish_icon_color",
+
+  // The icon color for Circle CI specific files.
+  "file_type_circleci": "$grayish_icon_color",
 }

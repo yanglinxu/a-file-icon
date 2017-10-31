@@ -1,20 +1,4 @@
 {
-  // The icon settings for Circle CI specific files.
-  "file_type_circleci": {
-    "color": "$grayish_color",
-    "aliases":[
-      {
-        "name": "YAML (CircleCI)",
-        "linter": "yaml",
-        "extensions": [
-          "circle.yml"
-        ],
-        "base": "source.yaml",
-        "scope": "source.yaml.circleci"
-      }
-    ]
-  },
-
   // The icon settings for Cold Fusion and Lucee files.
   "file_type_cf": {
     "color": "$bluish_color",

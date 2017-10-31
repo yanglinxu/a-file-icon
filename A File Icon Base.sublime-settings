@@ -25,4 +25,12 @@
     "syntax_scope": "text.plain",
     "syntax_lintable": false
   },
+
+  // Base YAML syntax file.
+  "yaml": {
+    "syntax_name": "YAML",
+    "syntax_path": "Packages/YAML/YAML.sublime-syntax",
+    "syntax_scope": "source.yaml",
+    "syntax_lintable": true
+  },
 }

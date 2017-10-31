@@ -2,14 +2,12 @@
   <content>
 <![CDATA[
 // Base $1 syntax file.
-"$2": [
-  {
-    "syntax_name": "$3",
-    "syntax_path": "$4",
-    "syntax_scope": "$5",
-    "syntax_lintable": false
-  }
-],
+"$2": {
+  "syntax_name": "$3",
+  "syntax_path": "$4",
+  "syntax_scope": "$5",
+  "syntax_lintable": false
+},
 ]]>
   </content>
   <tabTrigger>base</tabTrigger>
