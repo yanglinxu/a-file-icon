@@ -59,4 +59,13 @@
       "package_scopes": "source.applescript"
     }
   ],
+
+  // The syntax packages for Laravel Blade files.
+  "file_type_blade": [
+    {
+      "package_name": "Laravel Blade Highlighter",
+      "package_url": "https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter",
+      "package_scopes": "text.blade"
+    }
+  ],
 }

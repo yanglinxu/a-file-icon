@@ -43,4 +43,7 @@
 
   // The icon color for binary files.
   "file_type_binary": "$grayish_icon_color",
+
+  // The icon color for Laravel Blade files.
+  "file_type_blade": "$orangish_icon_color",
 }

@@ -1,16 +1,4 @@
 {
-  // The icon settings for Laravel Blade files.
-  "file_type_blade": {
-    "color": "$orangish_color",
-    "syntaxes": [
-      {
-        "name": "Laravel Blade",
-        "url": "https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter",
-        "scope": "text.blade"
-      }
-    ]
-  },
-
   // The icon settings for Bower specific files.
   "file_type_bower": {
     "color": "$yellowish_color",
