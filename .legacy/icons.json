@@ -1,15 +1,4 @@
 {
-  // The icon settings for C++ files.
-  "file_type_cpp": {
-    "color": "$bluish_color",
-    "syntaxes": [
-      {
-        "name": "C++",
-        "scope": "source.c++"
-      }
-    ]
-  },
-
   // The icon settings for C# files.
   "file_type_csharp": {
     "color": "$bluish_color",

@@ -106,4 +106,12 @@
       "package_scopes": "source.coffee"
     }
   ],
+
+  // The syntax packages for C++ files.
+  "file_type_cpp": [
+    {
+      "package_name": "C++",
+      "package_scopes": "source.c++"
+    }
+  ],
 }

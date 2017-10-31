@@ -67,4 +67,7 @@
 
   // The icon color for Composer specific files.
   "file_type_composer": "$orangish_icon_color",
+
+  // The icon color for C++ files.
+  "file_type_cpp": "$bluish_icon_color",
 }
