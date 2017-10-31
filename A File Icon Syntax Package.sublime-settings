@@ -114,4 +114,12 @@
       "package_scopes": "source.c++"
     }
   ],
+
+  // The syntax packages for C# files.
+  "file_type_csharp": [
+    {
+      "package_name": "C#",
+      "package_scopes": "source.cs"
+    }
+  ],
 }
