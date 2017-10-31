@@ -112,6 +112,10 @@
     {
       "package_name": "C++",
       "package_scopes": "source.c++"
+    },
+    {
+      "package_name": "Objective-C",
+      "package_scopes": "source.objc++"
     }
   ],
 
