@@ -61,4 +61,7 @@
 
   // The icon color for Clojure files.
   "file_type_clojure": "$purplish_icon_color",
+
+  // The icon color for CoffeeScript files.
+  "file_type_coffeescript": "$orangish_icon_color",
 }

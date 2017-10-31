@@ -1,16 +1,4 @@
 {
-  // The icon settings for CoffeeScript files.
-  "file_type_coffeescript": {
-    "color": "$orangish_color",
-    "syntaxes": [
-      {
-        "name": "CoffeeScript",
-        "url": "https://packagecontrol.io/packages/Better%20CoffeeScript",
-        "scope": "source.coffee"
-      }
-    ]
-  },
-
   // The icon settings for Composer specific files.
   "file_type_composer": {
     "color": "$orangish_color",

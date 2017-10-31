@@ -97,4 +97,13 @@
       "package_scopes": "source.clojure"
     }
   ],
+
+  // The syntax packages for CoffeeScript files.
+  "file_type_coffeescript": [
+    {
+      "package_name": "CoffeeScript",
+      "package_url": "https://packagecontrol.io/packages/Better%20CoffeeScript",
+      "package_scopes": "source.coffee"
+    }
+  ],
 }
