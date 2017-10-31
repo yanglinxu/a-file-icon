@@ -36,7 +36,7 @@
 
         // The base syntax used to create the syntax alias.
         // The list of all base syntaxes can be found in
-        // "A File Icon Base.sublime-settings" file.
+        // "A File Icon Base Syntax.sublime-settings" file.
         "base_syntax": "foo"
       }
     ],
