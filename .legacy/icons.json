@@ -1,19 +1,4 @@
 {
-  // The icon settings for C files.
-  "file_type_c": {
-    "color": "$purplish_color",
-    "syntaxes": [
-      {
-        "name": "C",
-        "scope": "source.c"
-      },
-      {
-        "name": "Objective-C",
-        "scope": "source.objc"
-      }
-    ]
-  },
-
   // The icon settings for Circle CI specific files.
   "file_type_circleci": {
     "color": "$grayish_color",

@@ -68,4 +68,16 @@
       "package_scopes": "text.blade"
     }
   ],
+
+  // The syntax packages for C files.
+  "file_type_c": [
+    {
+      "package_name": "C++",
+      "package_scopes": "source.c"
+    },
+    {
+      "package_name": "Objective-C",
+      "package_scopes": "source.objc"
+    }
+  ],
 }

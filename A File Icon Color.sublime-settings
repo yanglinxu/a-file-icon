@@ -49,4 +49,7 @@
 
   // The icon color for Bower specific files.
   "file_type_bower": "$yellowish_icon_color",
+
+  // The icon color for C files.
+  "file_type_c": "$purplish_icon_color",
 }
