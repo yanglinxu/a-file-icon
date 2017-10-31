@@ -167,4 +167,16 @@
       "base_syntax": "yaml"
     }
   ],
+
+  // The syntax aliases for Composer specific files.
+  "file_type_composer": [
+    {
+      "alias_name": "Composer",
+      "alias_extensions": [
+        "composer.json",
+        "composer.lock"
+      ],
+      "base_syntax": "json"
+    }
+  ],
 }

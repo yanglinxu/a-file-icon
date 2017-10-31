@@ -1,21 +1,4 @@
 {
-  // The icon settings for Composer specific files.
-  "file_type_composer": {
-    "color": "$orangish_color",
-    "aliases": [
-      {
-        "name": "JSON (Composer)",
-        "linter": "json",
-        "extensions": [
-          "composer.json",
-          "composer.lock"
-        ],
-        "base": "source.json",
-        "scope": "source.json.composer"
-      }
-    ]
-  },
-
   // The icon settings for C++ files.
   "file_type_cpp": {
     "color": "$bluish_color",
