@@ -24,7 +24,7 @@
 
         // Where you can find all necessary information about
         // the syntax package. Indicates that syntax package is
-        // maintained by community.This also means that you have to
+        // maintained by community. This also means that you have to
         // install this package to see the right icon.
         "package_url": "https://packagecontrol.io/packages/Foo",
 
