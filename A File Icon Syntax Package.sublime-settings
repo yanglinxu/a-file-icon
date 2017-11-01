@@ -209,4 +209,12 @@
       "package_scopes": "source.elm"
     }
   ],
+
+  // The syntax packages for Erlang files.
+  "file_type_erlang": [
+    {
+      "package_name": "Erlang",
+      "package_scopes": "source.erlang, text.html.erlang.yaws"
+    }
+  ],
 }

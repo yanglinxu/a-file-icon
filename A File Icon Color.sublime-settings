@@ -100,4 +100,7 @@
 
   // The icon color for Elm files.
   "file_type_elm": "$greenish_icon_color",
+
+  // The icon color for Erlang files.
+  "file_type_erlang": "$redish_icon_color",
 }

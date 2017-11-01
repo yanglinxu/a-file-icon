@@ -1,15 +1,4 @@
 {
-  // The icon settings for Erlang files.
-  "file_type_erlang": {
-    "color": "$redish_color",
-    "syntaxes": [
-      {
-        "name": "Erlang",
-        "scope": "source.erlang"
-      }
-    ]
-  },
-
   // The icon settings for ESLint specific files.
   "file_type_eslint": {
     "color": "$purplish_color",
