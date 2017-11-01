@@ -160,7 +160,7 @@
   // The syntax aliases for Circle CI specific files.
   "file_type_circleci": [
     {
-      "alias_name": "CircleCI",
+      "alias_name": "Circle CI",
       "alias_extensions": [
         "circle.yml"
       ],
@@ -177,6 +177,24 @@
         "composer.lock"
       ],
       "base_syntax": "json"
+    }
+  ],
+
+  // The syntax aliases for Docker specific files.
+  "file_type_docker": [
+    {
+      "alias_name": "Docker",
+      "alias_extensions": [
+        "docker-compose.yml"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_name": "Docker",
+      "alias_extensions": [
+        ".dockerignore"
+      ],
+      "base_syntax": "bash"
     }
   ],
 }

@@ -143,7 +143,7 @@
   // The syntax packages for CSV files.
   "file_type_csv": [
     {
-      "package_name": "AdvancedCSV",
+      "package_name": "Advanced CSV",
       "package_url": "https://packagecontrol.io/packages/Advanced%20CSV",
       "package_scopes": "text.advanced_csv"
     },
@@ -168,6 +168,15 @@
     {
       "package_name": "D",
       "package_scopes": "source.d"
+    }
+  ],
+
+  // The syntax packages for Docker specific files.
+  "file_type_docker": [
+    {
+      "package_name": "Dockerfile Syntax Highlighting",
+      "package_url": "https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting",
+      "package_scopes": "source.dockerfile"
     }
   ],
 }

@@ -10,6 +10,14 @@
   //  - Each syntax alias has "base_syntax" setting which should
   //    match the name of the one of base syntaxes provided below.
 
+  // Base Bash syntax file.
+  "bash": {
+    "syntax_name": "Bash",
+    "syntax_path": "Packages/ShellScript/Bash.sublime-syntax",
+    "syntax_scope": "source.shell.bash",
+    "syntax_lintable": true
+  },
+
   // Base JSON syntax file.
   "json": {
     "syntax_name": "JSON",

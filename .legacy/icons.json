@@ -1,35 +1,4 @@
 {
-  // The icon settings for Docker specific files.
-  "file_type_docker": {
-    "color": "$bluish_color",
-    "syntaxes": [
-      {
-        "name": "Dockerfile",
-        "url": "https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting",
-        "scope": "source.dockerfile"
-      }
-    ],
-    "aliases": [
-      {
-        "name": "YAML (Docker)",
-        "linter": "yaml",
-        "extensions": [
-          "docker-compose.yml"
-        ],
-        "base": "source.yaml",
-        "scope": "source.yaml.docker"
-      },
-      {
-        "name": "Shell Script (Docker)",
-        "extensions": [
-          ".dockerignore"
-        ],
-        "base": "source.shell",
-        "scope": "source.shell.docker"
-      }
-    ]
-  },
-
   // The icon settings for .NET specific files.
   "file_type_dotnet": {
     "color": "$purplish_color",
