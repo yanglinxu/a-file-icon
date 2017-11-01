@@ -1,16 +1,4 @@
 {
-  // The icon settings for Elm files.
-  "file_type_elm": {
-    "color": "$greenish_color",
-    "syntaxes": [
-      {
-        "name": "Elm",
-        "url": "https://packagecontrol.io/packages/Elm%20Language%20Support",
-        "scope": "source.elm"
-      }
-    ]
-  },
-
   // The icon settings for Erlang files.
   "file_type_erlang": {
     "color": "$redish_color",

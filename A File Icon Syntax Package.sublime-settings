@@ -200,4 +200,13 @@
       "package_scopes": "source.ini.editorconfig"
     }
   ],
+
+  // The syntax packages for Elm files.
+  "file_type_elm": [
+    {
+      "package_name": "Elm Language Support",
+      "package_url": "https://packagecontrol.io/packages/Elm%20Language%20Support",
+      "package_scopes": "source.elm"
+    }
+  ],
 }

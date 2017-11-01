@@ -97,4 +97,7 @@
 
   // The icon color for EditorConfig files.
   "file_type_editorconfig": "$yellowish_icon_color",
+
+  // The icon color for Elm files.
+  "file_type_elm": "$greenish_icon_color",
 }
