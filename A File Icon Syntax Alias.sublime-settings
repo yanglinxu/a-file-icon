@@ -238,4 +238,19 @@
       "base_syntax": "text"
     }
   ],
+
+  // The syntax aliases for Microsoft Excel files.
+  "file_type_excel": [
+    {
+      "alias_name": "Microsoft Excel",
+      "alias_extensions": [
+        "xls",
+        "xlsx",
+        "xlsm",
+        "xlsb",
+        "xlt"
+      ],
+      "base_syntax": "text"
+    }
+  ],
 }

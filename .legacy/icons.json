@@ -1,21 +1,4 @@
 {
-  "file_type_excel": {
-    "color": "green",
-    "aliases": [
-      {
-        "name": "Plain Text (Microsoft Excel)",
-        "extensions": [
-          "xls",
-          "xlsx",
-          "xlsm",
-          "xlsb",
-          "xlt"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.excel"
-      }
-    ]
-  },
   "file_type_font": {
     "color": "green",
     "aliases":[

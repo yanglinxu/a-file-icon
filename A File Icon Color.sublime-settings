@@ -109,4 +109,7 @@
 
   // The icon color for Elixir files.
   "file_type_ex": "$purplish_icon_color",
+
+  // The icon color for Microsoft Excel files.
+  "file_type_excel": "$greenish_icon_color",
 }
