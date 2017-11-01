@@ -18,6 +18,14 @@
     "syntax_lintable": true
   },
 
+  // Base JavaScript syntax file.
+  "javascript": {
+    "syntax_name": "JavaScript",
+    "syntax_path": "Packages/JavaScript/JavaScript.sublime-syntax",
+    "syntax_scope": "source.js",
+    "syntax_lintable": true
+  },
+
   // Base JSON syntax file.
   "json": {
     "syntax_name": "JSON",
@@ -26,7 +34,7 @@
     "syntax_lintable": true
   },
 
-  // Base text syntax file.
+  // Base Text syntax file.
   "text": {
     "syntax_name": "Plain Text",
     "syntax_path": "Packages/Text/Plain text.tmLanguage",
@@ -40,5 +48,5 @@
     "syntax_path": "Packages/YAML/YAML.sublime-syntax",
     "syntax_scope": "source.yaml",
     "syntax_lintable": true
-  },
+  }
 }

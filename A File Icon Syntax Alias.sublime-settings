@@ -197,4 +197,45 @@
       "base_syntax": "bash"
     }
   ],
+
+  // The syntax aliases for ESLint specific files.
+  "file_type_eslint": [
+    {
+      "alias_name": "ESLint",
+      "alias_extensions": [
+        ".eslintrc",
+        ".eslintrc.json"
+      ],
+      "base_syntax": "json"
+    },
+    {
+      "alias_name": "ESLint",
+      "alias_extensions": [
+        ".eslintrc.js"
+      ],
+      "base_syntax": "javascript"
+    },
+    {
+      "alias_name": "ESLint",
+      "alias_extensions": [
+        ".eslintrc.yaml",
+        ".eslintrc.yml"
+      ],
+      "base_syntax": "yaml"
+    },
+    {
+      "alias_name": "ESLint",
+      "alias_extensions": [
+        ".eslintignore"
+      ],
+      "base_syntax": "bash"
+    },
+    {
+      "alias_name": "ESLint",
+      "alias_extensions": [
+        ".eslintcache"
+      ],
+      "base_syntax": "text"
+    }
+  ],
 }

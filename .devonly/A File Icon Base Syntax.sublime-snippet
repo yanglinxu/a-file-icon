@@ -6,7 +6,7 @@
   "syntax_name": "$3",
   "syntax_path": "$4",
   "syntax_scope": "$5",
-  "syntax_lintable": false
+  "syntax_lintable": true
 },
 ]]>
   </content>

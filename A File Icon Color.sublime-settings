@@ -103,4 +103,7 @@
 
   // The icon color for Erlang files.
   "file_type_erlang": "$redish_icon_color",
+
+  // The icon color for ESLint specific files.
+  "file_type_eslint": "$purplish_icon_color",
 }
