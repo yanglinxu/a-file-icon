@@ -1,21 +1,4 @@
 {
-  "file_type_font": {
-    "color": "green",
-    "aliases":[
-      {
-        "name": "Plain Text (Font)",
-        "extensions": [
-          "eot",
-          "otf",
-          "ttf",
-          "woff",
-          "woff2"
-        ],
-        "base": "text.plain",
-        "scope": "text.plain.font"
-      }
-    ]
-  },
   "file_type_git": {
     "color": "orange",
     "syntaxes": [

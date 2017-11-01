@@ -112,4 +112,7 @@
 
   // The icon color for Microsoft Excel files.
   "file_type_excel": "$greenish_icon_color",
+
+  // The icon color for font files.
+  "file_type_font": "$greenish_icon_color",
 }

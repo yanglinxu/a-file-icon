@@ -253,4 +253,19 @@
       "base_syntax": "text"
     }
   ],
+
+  // The syntax aliases for font files.
+  "file_type_font": [
+    {
+      "alias_name": "Font",
+      "alias_extensions": [
+        "eot",
+        "otf",
+        "ttf",
+        "woff",
+        "woff2"
+      ],
+      "base_syntax": "text"
+    }
+  ],
 }
