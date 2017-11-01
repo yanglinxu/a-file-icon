@@ -1,19 +1,4 @@
 {
-  // The icon settings for .NET specific files.
-  "file_type_dotnet": {
-    "color": "$purplish_color",
-    "syntaxes": [
-      {
-        "name": "ASP",
-        "scope": "source.asp"
-      },
-      {
-        "name": "HTML (ASP)",
-        "scope": "text.html.asp"
-      }
-    ]
-  },
-
   // The icon settings for EditorConfig.
   "file_type_editorconfig": {
     "color": "$yellowish_color",

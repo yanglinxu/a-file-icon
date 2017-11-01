@@ -179,4 +179,16 @@
       "package_scopes": "source.dockerfile"
     }
   ],
+
+  // The syntax packages for .NET specific files.
+  "file_type_dotnet": [
+    {
+      "package_name": "ASP",
+      "package_scopes": "source.asp"
+    },
+    {
+      "package_name": "HTML (ASP)",
+      "package_scopes": "text.html.asp"
+    }
+  ],
 }

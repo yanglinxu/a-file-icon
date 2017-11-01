@@ -91,4 +91,7 @@
 
   // The icon color for Docker specific files.
   "file_type_docker": "$bluish_icon_color",
+
+  // The icon color for .NET specific files.
+  "file_type_dotnet": "$purplish_icon_color",
 }
