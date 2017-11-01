@@ -79,4 +79,10 @@
 
   // The icon color for CSV files.
   "file_type_csv": "$greenish_icon_color",
+
+  // The icon color for Dart files.
+  "file_type_dart": "$greenish_icon_color",
+
+  // The default icon color.
+  "file_type_default": "$grayish_icon_color",
 }

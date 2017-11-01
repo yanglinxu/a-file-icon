@@ -1,21 +1,4 @@
 {
-  // The icon settings for Dart files.
-  "file_type_dart": {
-    "color": "$greenish_color",
-    "syntaxes": [
-      {
-        "name": "Dart",
-        "url": "https://packagecontrol.io/packages/Dart",
-        "scope": "source.dart"
-      }
-    ]
-  },
-
-  // The default icon settings.
-  "file_type_default": {
-    "color": "$grayish_color"
-  },
-
   // The icon settings for D files.
   "file_type_dlang": {
     "color": "$redish_color",

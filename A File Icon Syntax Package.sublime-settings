@@ -153,4 +153,13 @@
       "package_scopes": "text.csv"
     }
   ],
+
+  // The syntax packages for Dart files.
+  "file_type_dart": [
+    {
+      "package_name": "Dart",
+      "package_url": "https://packagecontrol.io/packages/Dart",
+      "package_scopes": "source.dart"
+    }
+  ],
 }
