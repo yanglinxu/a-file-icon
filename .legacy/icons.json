@@ -1,21 +1,4 @@
 {
-  // The icon settings for CSV files.
-  "file_type_csv": {
-    "color": "$greenish_color",
-    "syntaxes": [
-      {
-        "name": "AdvancedCSV",
-        "url": "https://packagecontrol.io/packages/Advanced%20CSV",
-        "scope": "text.advanced_csv"
-      },
-      {
-        "name": "CSV",
-        "url": "https://github.com/michaelblyons/SublimeSyntax-CSV",
-        "scope": "text.csv"
-      }
-    ]
-  },
-
   // The icon settings for Dart files.
   "file_type_dart": {
     "color": "$greenish_color",

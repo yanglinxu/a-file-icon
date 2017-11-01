@@ -76,4 +76,7 @@
 
   // The icon color for CSS files.
   "file_type_css": "$bluish_icon_color",
+
+  // The icon color for CSV files.
+  "file_type_csv": "$greenish_icon_color",
 }

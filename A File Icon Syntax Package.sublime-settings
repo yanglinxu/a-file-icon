@@ -139,4 +139,18 @@
       "package_scopes": "source.css"
     }
   ],
+
+  // The syntax packages for CSV files.
+  "file_type_csv": [
+    {
+      "package_name": "AdvancedCSV",
+      "package_url": "https://packagecontrol.io/packages/Advanced%20CSV",
+      "package_scopes": "text.advanced_csv"
+    },
+    {
+      "package_name": "CSV",
+      "package_url": "https://github.com/michaelblyons/SublimeSyntax-CSV",
+      "package_scopes": "text.csv"
+    }
+  ],
 }
