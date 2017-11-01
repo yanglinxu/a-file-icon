@@ -115,4 +115,7 @@
 
   // The icon color for font files.
   "file_type_font": "$greenish_icon_color",
+
+  // The icon color for Git specific files.
+  "file_type_git": "$orangish_icon_color",
 }

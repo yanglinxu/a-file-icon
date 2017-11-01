@@ -268,4 +268,16 @@
       "base_syntax": "text"
     }
   ],
+
+  // The syntax aliases for Git specific files.
+  "file_type_git": [
+    {
+      "alias_name": "Git",
+      "alias_extensions": [
+        ".gitignore",
+        ".gitkeep"
+      ],
+      "base_syntax": "bash"
+    }
+  ],
 }

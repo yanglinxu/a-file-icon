@@ -226,4 +226,33 @@
       "package_scopes": "source.elixir, text.elixir, text.html.elixir"
     }
   ],
+
+  // The syntax packages for Git specific files.
+  "file_type_git": [
+    {
+      "package_name": "Git Files",
+      "package_url": "https://github.com/y0ssar1an/Packages/tree/add_gitconfig_pkg/Git%20Files",
+      "package_scopes": "text.git"
+    },
+    {
+      "package_name": "Git",
+      "package_url": "https://packagecontrol.io/packages/Git",
+      "package_scopes": "text.git-blame, text.git-commit, text.git-commit-view, text.git-graph"
+    },
+    {
+      "package_name": "GitSyntaxes",
+      "package_url": "https://packagecontrol.io/packages/GitSyntaxes",
+      "package_scopes": "text.git, source.git"
+    },
+    {
+      "package_name": "SublimeGit",
+      "package_url": "https://packagecontrol.io/packages/SublimeGit",
+      "package_scopes": "text.git-blame, text.git-commit, source.git-diff, source.git-show, text.git-status, text.git-tag"
+    },
+    {
+      "package_name": "Git Commit Message Syntax",
+      "package_url": "https://packagecontrol.io/packages/Git%20Commit%20Message%20Syntax",
+      "package_scopes": "text.git-commit-message"
+    }
+  ],
 }
