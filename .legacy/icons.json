@@ -1,20 +1,4 @@
 {
-  // The icon settings for Elixir files.
-  "file_type_ex": {
-    "color": "$purplish_color",
-    "syntaxes": [
-      {
-        "name": "Elixir",
-        "url": "https://packagecontrol.io/packages/Elixir",
-        "scope": "source.elixir, text.elixir, text.html.elixir"
-      }
-    ]
-  },
-
-
-
-
-
   "file_type_excel": {
     "color": "green",
     "aliases": [

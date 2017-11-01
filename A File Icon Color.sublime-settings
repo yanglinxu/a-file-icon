@@ -106,4 +106,7 @@
 
   // The icon color for ESLint specific files.
   "file_type_eslint": "$purplish_icon_color",
+
+  // The icon color for Elixir files.
+  "file_type_ex": "$purplish_icon_color",
 }

@@ -217,4 +217,13 @@
       "package_scopes": "source.erlang, text.html.erlang.yaws"
     }
   ],
+
+  // The syntax packages for Elixir files.
+  "file_type_ex": [
+    {
+      "package_name": "Elixir",
+      "package_url": "https://packagecontrol.io/packages/Elixir",
+      "package_scopes": "source.elixir, text.elixir, text.html.elixir"
+    }
+  ],
 }
