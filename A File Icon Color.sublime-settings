@@ -85,4 +85,7 @@
 
   // The default icon color.
   "file_type_default": "$grayish_icon_color",
+
+  // The icon color for D files.
+  "file_type_dlang": "$redish_icon_color",
 }

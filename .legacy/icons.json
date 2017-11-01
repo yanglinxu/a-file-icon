@@ -1,15 +1,4 @@
 {
-  // The icon settings for D files.
-  "file_type_dlang": {
-    "color": "$redish_color",
-    "syntaxes": [
-      {
-        "name": "D",
-        "scope": "source.d"
-      }
-    ]
-  },
-
   // The icon settings for Docker specific files.
   "file_type_docker": {
     "color": "$bluish_color",

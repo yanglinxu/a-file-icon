@@ -162,4 +162,12 @@
       "package_scopes": "source.dart"
     }
   ],
+
+  // The syntax packages for D files.
+  "file_type_dlang": [
+    {
+      "package_name": "D",
+      "package_scopes": "source.d"
+    }
+  ],
 }
