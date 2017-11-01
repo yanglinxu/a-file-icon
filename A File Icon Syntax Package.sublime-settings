@@ -191,4 +191,13 @@
       "package_scopes": "text.html.asp"
     }
   ],
+
+  // The syntax packages for EditorConfig files.
+  "file_type_editorconfig": [
+    {
+      "package_name": "EditorConfig",
+      "package_url": "https://packagecontrol.io/packages/EditorConfig",
+      "package_scopes": "source.ini.editorconfig"
+    }
+  ],
 }

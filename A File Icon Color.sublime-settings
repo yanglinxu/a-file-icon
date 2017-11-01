@@ -94,4 +94,7 @@
 
   // The icon color for .NET specific files.
   "file_type_dotnet": "$purplish_icon_color",
+
+  // The icon color for EditorConfig files.
+  "file_type_editorconfig": "$yellowish_icon_color",
 }

@@ -1,16 +1,4 @@
 {
-  // The icon settings for EditorConfig.
-  "file_type_editorconfig": {
-    "color": "$yellowish_color",
-    "syntaxes": [
-      {
-        "name": "EditorConfig",
-        "url": "https://packagecontrol.io/packages/EditorConfig",
-        "scope": "source.ini.editorconfig"
-      }
-    ]
-  },
-
   // The icon settings for Elm files.
   "file_type_elm": {
     "color": "$greenish_color",
